@@ -53,7 +53,7 @@
 							endif;	
 						?>
 						<div class="feed-header"> Latest Post on Facebook </div>
-						<?php echo do_shortcode('[custom-facebook-feed]') ?>
+						<?php echo do_shortcode('[custom-facebook-feed textlength=70]') ?>
 					</div>
 				</div>
 			

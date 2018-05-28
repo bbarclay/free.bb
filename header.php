@@ -25,28 +25,31 @@
  					<a href="<?php echo site_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/bb-logo.svg"  width="240"/></a>
  				</div>
  			</div>
- 			<div class="col-xs-4 col-sm-9 col-sm-9">
 
- 				<nav class="site-navigation desktop-menu">
- 					<?php 
- 						if( has_nav_menu('primary') ) {
+ 			<?php if( is_front_page() ) : ?>
+	 			<div class="col-xs-4 col-sm-9 col-sm-9">
 
- 							wp_nav_menu(array(
-		 									'theme_location' => 'primary'
-		 					));
- 						}  
- 					?>
- 				</nav>
+	 				<nav class="site-navigation desktop-menu">
+	 					<?php 
+	 						if( has_nav_menu('primary') ) {
 
- 				<div class="navbar-header"> 
- 				   <button type="button" id="burger-menu" class="navbar-toggle"> 
- 				    		<span class="sr-only">Toggle navigation</span> 
- 				    		<span class="icon-bar"></span> 
- 				    		<span class="icon-bar"></span> 
- 				    		<span class="icon-bar"></span> 
- 				    </button> 
- 				</div>
- 			</div>
+	 							wp_nav_menu(array(
+			 									'theme_location' => 'primary'
+			 					));
+	 						}  
+	 					?>
+	 				</nav>
+
+	 				<div class="navbar-header"> 
+	 				   <button type="button" id="burger-menu" class="navbar-toggle"> 
+	 				    		<span class="sr-only">Toggle navigation</span> 
+	 				    		<span class="icon-bar"></span> 
+	 				    		<span class="icon-bar"></span> 
+	 				    		<span class="icon-bar"></span> 
+	 				    </button> 
+	 				</div>
+	 			</div>
+ 			<?php endif; ?>
 	 	 </div>
 		 <div class="menu-wrap">
  				<nav class="site-navigation mobile-menu">
