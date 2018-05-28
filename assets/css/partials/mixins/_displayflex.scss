@@ -1,0 +1,14 @@
+// ----------------------------------------------------------------------
+
+  // Include display flex
+
+// ----------------------------------------------------------------------
+
+// example: @include display-flex();
+
+@mixin display-flex() {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}

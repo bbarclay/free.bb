@@ -1,0 +1,48 @@
+/**!
+Theme Name: FREE BussinessBlueprint
+Theme URI: https://businessblueprint.com.au
+Description: A new theme.
+Version: 1.0
+Author: July Cabigas
+Author URI: https://businessblueprint.com.au
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bb-au
+*/
+
+
+/* ----------------------------------------------------------------------------
+ * Load Vendors
+ * ------------------------------------------------------------------------- */
+
+@import "vendors/bootstrap.min";
+@import "../fonts/_dale-fonts";
+@import "vendors/owl.carousel.min";
+@import "vendors/owl.theme.default.min";
+
+/* ----------------------------------------------------------------------------
+ * Mixins & Variables
+ * ------------------------------------------------------------------------- */
+@import "partials/mixins";
+@import "partials/fonts";
+@import "partials/variables";
+
+
+/* ----------------------------------------------------------------------------
+ * Structure
+ * ------------------------------------------------------------------------- */
+
+@import "partials/structure";
+
+/* WPCore */
+@import "partials/wpcore";
+
+/* Base */
+@import "partials/base";
+@import "modules/header";
+@import "modules/footer";
+@import "views/subpages";
+@import "views/frontpage";
+
+@import "components/components";
+

@@ -1,0 +1,304 @@
+/* ----------------------------------------------------------------------------
+ * Structure
+ * ------------------------------------------------------------------------- */
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+body {
+    font: normal 19px/1.5 $font-pt;
+    color: $navy;
+    margin: 0;
+    background: #FFF;
+    height:100%;
+    min-height:100%;
+
+}
+
+/*----------------------
+ Clear
+----------------------- */
+.clear:before,
+.clear:after {
+    content: ' ';
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+
+/*----------------------
+ Images
+----------------------- */
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    height: auto;
+}
+
+/*----------------------
+ Links 
+----------------------- */
+a {
+    color: $orange;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    &:hover {
+       color: #444;
+    }
+    &:focus {
+      outline: 0;
+    }
+    &:hover,
+    &:active {
+        outline: 0;
+    }
+}
+
+
+/*----------------------
+ Heading 
+----------------------- */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Geogrotesque-SemiBold', sans-serif;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+/*----------------------
+ List
+----------------------- */
+ol, ul {
+  margin: 0;
+  list-style: none;
+
+     li {
+          margin-bottom: 0.5em;
+    }
+}
+
+/*----------------------
+ Tables
+----------------------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: inherit;
+}
+th,
+td {
+  vertical-align: top;
+  padding: 0.2em 2em 0.2em 0;
+}
+th {
+  text-align: left;
+}
+
+/*----------------------
+ Forms
+----------------------- */
+/**
+ * Resets
+ */
+button,
+textarea,
+input:not([type]),
+input[type="button"],
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="reset"],
+input[type="search"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select[multiple] {
+  -webkit-appearance: none;
+  outline-width: 0;
+}
+button,
+input,
+select,
+textarea,
+fieldset {
+  max-width: 100%;
+  vertical-align: middle;
+  font-size: inherit;
+}
+button[disabled],
+input[disabled],
+select[disabled],
+textarea[disabled],
+fieldset[disabled] {
+  opacity: 0.7;
+  cursor: default;
+}
+/**
+ * Rectangular Inputs
+ */
+button,
+input,
+textarea,
+select[multiple] {
+  padding-right: 0.4em;
+  padding-left: 0.4em;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+}
+button,
+input {
+  height: 2.4em;
+}
+input,
+textarea,
+select {
+  border-color: #EEE;
+  background: #FFF;
+}
+textarea,
+select[multiple] {
+  width: 100%;
+  padding-top: 0.35em;
+  padding-bottom: 0.35em;
+  vertical-align: top;
+}
+/**
+ * Buttons
+ */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  padding: 0 1.5em;
+  text-align: center;
+  cursor: pointer;
+  background: #333;
+  border-color: transparent;
+  color: #FFF;
+}
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+  -webkit-transform: translateY(1px);
+      -ms-transform: translateY(1px);
+          transform: translateY(1px);
+}
+/**
+ * Non-Rectangular Inputs
+ */
+input[type="checkbox"],
+input[type="radio"],
+input[type="range"],
+input[type="file"],
+input[type="image"] {
+  height: auto;
+}
+input[type="range"],
+input[type="file"],
+input[type="image"] {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+/**
+ * Fieldsets
+ */
+legend {
+  font-weight: bold;
+}
+
+textarea:focus, 
+input:focus {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+select{
+    width: 100%;
+}
+
+/*----------------------
+ Paragraph / Text
+----------------------- */
+p,
+ol,
+ul,
+dl,
+dd,
+table,
+address,
+pre,
+fieldset {
+  margin: 0 0 1.5em 0;
+}
+
+
+/*----------------------
+ Video Object / Embed
+----------------------- */
+embed,
+iframe,
+object,
+video {
+  max-width: 100%;
+}
+
+/*----------------------
+ Other html Elements
+----------------------- */
+dt {
+  font-weight: bold;
+}
+blockquote {
+  margin: 0 2em;
+}
+pre {
+  padding: 0.4em;
+  background: #333;
+  color: #FFF;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: strikethrough;
+}
+

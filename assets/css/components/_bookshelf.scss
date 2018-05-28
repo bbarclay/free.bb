@@ -1,0 +1,91 @@
+.bookshelf {
+	padding-top: 30px;
+
+	&:nth-child(odd) {
+		background: #f9f7f7;
+	}
+	.header {
+		padding-bottom: 10px;
+
+		h2 {
+			margin: 0 0 5px 0;
+			@include rem('font-size', 22)
+		}
+		.no-of-books {
+			text-align: right;
+			font-size: 16px;
+			line-height: 30px;
+			color: $gray_color;
+			font-family: $font-GeorgeLight;
+			.total {	
+				color: $hover_color;
+				font-family: $font-GeorgeMedium;
+				margin-right: 2px;
+			}
+		}
+		.description {
+			border-top: 1px solid #f1efef;
+		    padding-top: 10px;
+		    color: #908c8c;
+
+		}
+	}
+	.books {
+		@include display-flex();
+		flex-wrap: wrap;
+		margin-left: -10px;
+		margin-right: -10px;
+
+		.item {
+			width: 25%;
+			padding: 0 10px;
+			margin-bottom: 40px;
+			text-align: center;
+
+			@include breakpoint(991) {
+				width: 50%;
+			}
+			.thumbnail {
+			    padding: 30px;
+			    border-radius: 3px;
+			    background: #f9f7f7;
+			}
+			img {
+				@include box-shadow(1px, 5px, 30px, 0px, #e6e9ea);
+				@include single-transition(box-shadow, 0.3s, ease-in-out, 0s);
+				
+			}
+			h3 {
+				margin: 5px 0 5px 0;
+				line-height: 1.2;
+			}
+			span {
+				display: block;
+				margin-bottom: 15px;
+				color: #f15d22;
+			}
+			.btn {
+				display: inline-block;
+			    padding: 5px 15px;
+			    border-radius: 5px;
+			    margin: 0 auto;				
+				background: #7ac143 -webkit-linear-gradient(top,#7ac143 0,#639c37 100%);
+				background: #7ac143 linear-gradient(to bottom,#7ac143 0,#639c37 100%);
+			    color: #fff;
+			    text-align: center;
+			    font-family: $font--GeorgeSemiBold;
+
+			    &:hover {
+			    	background: $hover_color;
+			    	text-decoration: none;
+
+			    }
+			}
+			&:hover {
+				img {
+					box-shadow: 1px 2px 20px 0 #bcbfc1;
+				}
+			}
+		}
+	}
+}
