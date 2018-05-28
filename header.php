@@ -26,7 +26,7 @@
  				</div>
  			</div>
 
- 			<?php if( is_front_page() ) : ?>
+ 			<?php if( is_front_page() || is_page('test-frontpage') ) : ?>
 	 			<div class="col-xs-4 col-sm-9 col-sm-9">
 
 	 				<nav class="site-navigation desktop-menu">
