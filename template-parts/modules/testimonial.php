@@ -41,7 +41,7 @@
 
 		<?php
 				
-		 endif; ?>
+		 endif; wp_reset_postdata() ?>
 
 	</div>
 

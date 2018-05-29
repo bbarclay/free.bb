@@ -537,7 +537,12 @@
       /*background: url(assets/img/sydney-bg.jpg) bottom center / cover no-repeat;*/
       background-color: #f6f6f7;
 
-
+      .title {
+        margin: 0;
+      }
+      .subtitle {
+        margin-bottom: 20px;
+      }
 
     }
 
@@ -576,6 +581,12 @@
         padding: 1em 0;
     }
     .form {
+          padding: 20px 10px;
+          background: #ffffff;
+          border-radius: 4px;
+          -webkit-box-shadow: 0 2px 10px #ddd;
+          box-shadow: 0 2px 10px #ddd;
+
           @include breakpoint(991) {
             margin-top: 40px;
           }
@@ -600,11 +611,13 @@
             font-size: 15px;
             line-height: 1.4;
             text-align: center;
-            color: #414142;
+            color: #9c9c9c;
             margin: 0;
           }
           &__fields {
             display: block;
+
+            p { margin: 0; }
 
             @include breakpoint(767) {
                 display: block;
@@ -613,6 +626,11 @@
             input {
               padding: 4px 5px;
               border: 5px;
+
+              &[type="submit"] {
+                line-height: 1;
+                border: 0 !important;
+              }
             }
           }
       }
@@ -672,13 +690,15 @@
        background-color: #f6f6f7;
 
        .item {
-          display: flex;
-          flex-wrap: wrap;
+          padding-top: 20px;
+          background: #fff;
+          border: 1px solid #efecec;
+          border-radius: 3px;
           .image {
-            width: 150px;
-
+            width: 100%;
             img {
-              max-width: 120px !important;
+              max-width: 95px !important;
+              margin: 0 auto;
             }
 
             @include breakpoint(991) {
@@ -691,7 +711,7 @@
 
           }
           .quote {
-             width: calc(100% - 200px);
+            padding:  20px 30px;
 
              @include breakpoint(991) {
                 width: 100%;
@@ -699,7 +719,7 @@
              }            
 
              p {
-
+              font-family: $font-GeorgeLight;
               font-size: 1em;
               margin-bottom: 0;
              }
@@ -714,8 +734,6 @@
        /* OWL CAROUSEL */
        .owl-carousel {
           
-          padding: 0 50px;
-
           @include breakpoint(767) {
             padding: 0 25px;
           }
@@ -732,7 +750,9 @@
             .owl-prev {
                position: absolute;
                top: 50%;
-               left: 0;
+               @include min-breakpoint(768) {
+                 left: -40px;
+                }
 
                 span {
                   font-size: 1.5em;
@@ -751,7 +771,9 @@
              .owl-next {
                 position: absolute;
                 top: 50%;
-                right: 0;
+                @include min-breakpoint(768) {
+                  right: -40px;
+                }
 
                 span {
                   font-size: 1.5em;
@@ -769,6 +791,7 @@
              }
           }
           .owl-dot {
+            height: auto;
             span {
                 width: 16px;
                 height: 16px;
@@ -854,6 +877,7 @@
 
     /* Form Horizontal */
     &__form {
+      padding: 1.2em 0;
       .heading {
             text-transform: uppercase;
             margin-bottom: 15px;
@@ -864,7 +888,7 @@
 
        &--horizontal {
 
-
+          p { margin: 0; }
           .moonray-form {
             width: 100% !important;
             background: #95ce69;
