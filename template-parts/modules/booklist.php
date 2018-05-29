@@ -21,7 +21,10 @@
 				   	   	    </div> 
 				   	   	    <div class="books">
 
-					   	   	     <?php  while( have_rows('bookshelf') ) : the_row(); ?>
+					   	   	     <?php
+					   	   	     	if( have_rows('items') ) :
+					   	   	     		
+					   	   	     	   while( have_rows('items') ) : the_row(); ?>
 
 							   	   	     	 <div class="item">
 							   	   	     	    <?php 
@@ -54,7 +57,7 @@
 							   	   	     	</div>
 
 					   	   	     <?php  endwhile; 
-					   	   	     		wp_reset_postdata();
+					   	   	     	 endif;
 					   	   	     ?>
 				   	   	    </div>
 				   	   	    
