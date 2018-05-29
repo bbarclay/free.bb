@@ -615,10 +615,10 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__testimonial .item .quote p{font-family:"Geogrotesque-Light",sans-serif;font-size:1em;margin-bottom:0}
 .module__testimonial .item .quote .meta{font-family:"Geogrotesque-Light",sans-serif;font-style:italic;color:#f15d22}
 .module__testimonial .owl-carousel .owl-dot:hover span,.module__testimonial .owl-carousel .owl-dot.active span{background:#f15d22 !important}
-.module__testimonial .owl-carousel .owl-nav .owl-prev{position:absolute;top:50%}
+.module__testimonial .owl-carousel .owl-nav .owl-prev{position:absolute;top:50%;left:-40px}
 .module__testimonial .owl-carousel .owl-nav .owl-prev span{font-size:1.5em;color:#dbdbdf;width:24px;height:24px;border-bottom:3px solid #dbdbdf;border-left:3px solid #dbdbdf;display:block;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
 .module__testimonial .owl-carousel .owl-nav .owl-prev:hover{background-color:transparent}
-.module__testimonial .owl-carousel .owl-nav .owl-next{position:absolute;top:50%}
+.module__testimonial .owl-carousel .owl-nav .owl-next{position:absolute;top:50%;right:-40px}
 .module__testimonial .owl-carousel .owl-nav .owl-next span{font-size:1.5em;color:#dbdbdf;width:24px;height:24px;border-top:3px solid #dbdbdf;border-right:3px solid #dbdbdf;display:block;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
 .module__testimonial .owl-carousel .owl-nav .owl-next:hover{background-color:transparent}
 .module__testimonial .owl-carousel .owl-dot{height:auto}
@@ -741,8 +741,6 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .grid__column--m-3{width:25%}
 .grid__column--m-2{width:16.66666667%}
 .grid__column--m-1{width:8.33333333%}
-}@media only screen and (min-width:768px){.module__testimonial .owl-carousel .owl-nav .owl-prev{left:-40px}
-.module__testimonial .owl-carousel .owl-nav .owl-next{right:-40px}
 }@media(min-width:960px){.grid__column--l-12{width:100%}
 .grid__column--l-11{width:91.66666667%}
 .grid__column--l-10{width:83.33333333%}
@@ -902,6 +900,8 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module .form__fields{display:block;margin:0 auto}
 .module__list-image{margin:20px auto}
 .module__testimonial .owl-carousel{padding:0 25px}
+.module__testimonial .owl-carousel .owl-nav .owl-prev{left:0}
+.module__testimonial .owl-carousel .owl-nav .owl-next{right:0}
 }@media only screen and (max-width:600px){.subpage .landing-footer .col-1{width:100%;float:none;text-align:center}
 .subpage .landing-footer .col-3{width:100%;float:none}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}

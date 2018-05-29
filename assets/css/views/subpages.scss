@@ -750,8 +750,9 @@
             .owl-prev {
                position: absolute;
                top: 50%;
-               @include min-breakpoint(768) {
-                 left: -40px;
+               left: -40px;
+               @include breakpoint(767) {
+                 left: 0px;
                 }
 
                 span {
@@ -771,8 +772,9 @@
              .owl-next {
                 position: absolute;
                 top: 50%;
-                @include min-breakpoint(768) {
-                  right: -40px;
+                right: -40px;
+                @include breakpoint(767) {
+                  right: 0;
                 }
 
                 span {
