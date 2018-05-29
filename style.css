@@ -1649,7 +1649,7 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 .bookshelf { padding-top: 30px; }
 
-.bookshelf:nth-child(odd) { background: #f9f7f7; }
+.bookshelf:nth-child(odd) { background: #fbfbfb; }
 
 .bookshelf .header { padding-bottom: 10px; }
 
@@ -1667,7 +1667,7 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 @media only screen and (max-width: 991px) { .bookshelf .books .item { width: 50%; } }
 
-.bookshelf .books .item .thumbnail { padding: 30px; border-radius: 3px; background: #f9f7f7; }
+.bookshelf .books .item .thumbnail { padding: 30px; border-radius: 3px; background: #f3f3f3; }
 
 .bookshelf .books .item img { box-shadow: 1px 5px 30px 0px #e6e9ea; -webkit-transition: box-shadow 0.3s ease-in-out 0s; transition: box-shadow 0.3s ease-in-out 0s; }
 
