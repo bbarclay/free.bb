@@ -499,12 +499,11 @@
    &__header {
       text-align: center;
       .title {
-         margin: 0;
+         color: $navy;
          font-family: $heading_primary;
-         font-weight: 500;
-         color: $blue;
          font-size: 1.6em;
          text-transform: uppercase;
+         margin: 0 0 5px 0;
 
          @include breakpoint(480) {
           font-size: 1.5em;
@@ -513,7 +512,7 @@
       .subtitle {
         margin: 0;
         font-family: $heading_primary;
-        color: $navy; 
+        color: $blue;
         font-size: 1.4em;
         text-transform: uppercase;
 
@@ -527,7 +526,7 @@
     *   Top
     ==================================  */
     &__top {
-      padding: 20px 0;
+      padding: 40px 0;
     }
     
 
@@ -537,10 +536,6 @@
     &__hero {
       /*background: url(assets/img/sydney-bg.jpg) bottom center / cover no-repeat;*/
       background-color: #f6f6f7;
-
-      &-header {
-        margin-bottom: 1.5em;
-      }
 
     }
 
