@@ -662,9 +662,10 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .bookshelf .books .item:hover img{box-shadow:1px 2px 20px 0 #bcbfc1}
 .banner{padding:40px 0;position:relative}
 .banner:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:-webkit-linear-gradient(left,#0c0c0c 10%,rgba(241,242,243,0.2));background:linear-gradient(to right,#0c0c0c 10%,rgba(241,242,243,0.2))}
-.banner h1{color:#fff;margin-top:0;line-height:1}
-.banner h1 span{display:block;color:#79c142}
+.banner h1{color:#fff;margin-top:0;line-height:1.2;font-family:"Geogrotesque-Medium",sans-serif;text-transform:uppercase;font-size:48px}
+.banner h1 span{display:inline-block;padding:5px 10px;background-color:#79c142;line-height:1}
 .banner .description{color:#fff;margin-bottom:20px}
+.banner .description p{margin:0}
 .banner img{box-shadow:1px 2px 20px 0 #222}
 @media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:"Genericons";src:url("assets/fonts/Genericons/Genericons.svg#Genericons") format("svg")}
 }@media only screen and (min-width:767px){.site-footer .fat-footer .pad-right{padding-right:4em}
