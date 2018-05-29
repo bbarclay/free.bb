@@ -582,7 +582,8 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module{padding:2em 0}
 .module__header{text-align:center}
 .module__header .title{color:#00274d;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;margin:0 0 10px 0}
-.module__header .subtitle{margin:0;font-family:"Geogrotesque-SemiBold",sans-serif;color:#2287c8;text-transform:uppercase}
+.module__header .subtitle{margin:0;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase}
+.module__header .subtitle span{color:#2287c8}
 .module__top{padding:30px 0}
 .module__hero{background-color:#f6f6f7}
 .module__video{background:url(assets/img/sydney-bg.jpg) bottom center/cover no-repeat}

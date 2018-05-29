@@ -511,9 +511,11 @@
       .subtitle {
         margin: 0;
         font-family: $heading_primary;
-        color: $blue;
         text-transform: uppercase;
 
+        span {
+          color: $blue;
+        }
         @include breakpoint(480) {
           font-size: 1.3em;
         }
