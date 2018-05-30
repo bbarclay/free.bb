@@ -1,16 +1,11 @@
 .bookshelf {
 	padding-top: 30px;
-	background: #eef3f4;
 
-	&:nth-child(odd) {
-		background: #fbfbfb;
-	}
+
 	.inner {
-	    padding: 15px;
-	    background: #fff;
-	    border: 1px solid #f3f2f2;
+	    padding: 20px;
+	    background: #f7f7f7;
 	    border-radius: 5px;
-    	border: 1px solid #ddd;
 	    @include single-transition(box-shadow, 0.3s, ease-in-out, 0s);
 
 	    &:hover {
@@ -22,6 +17,7 @@
 
 		h2 {
 			margin: 0 0 5px 0;
+			color: $danger_color;
 			@include rem('font-size', 25)
 		}
 		.no-of-books {
@@ -31,7 +27,7 @@
 			color: $gray_color;
 			font-family: $font-GeorgeLight;
 			.total {	
-				color: $success_color;
+				color: $hover_color;
 				font-family: $font--GeorgeSemiBold;
 				margin-right: 2px;
 			}
@@ -62,8 +58,6 @@
 			}
 			img {
 				border: 1px solid #efecec;    
-				border-right: 2px solid #efecec;
-			    border-bottom: 3px solid #ddd;
 			    border-radius: 3px;
 				
 				
@@ -72,6 +66,7 @@
 				margin: 5px 0 5px 0;
 				line-height: 1.2;
 				font-size: 19px;
+				min-height: 47px;
     			font-family: 'Geogrotesque-Medium',sans-serif;
 			}
 			span {
