@@ -603,10 +603,17 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module .form__fields input[type="submit"]{line-height:1;border:0 !important}
 .module__list{background:#fff}
 .module__list h2{margin-top:0;font-size:1.4em}
+.module__list h2 span{color:#00bcff}
 .module__list-image{max-width:250px;display:block;margin:0 auto}
 .module__list .list{margin-bottom:0}
 .module__list .list__item{position:relative;margin-bottom:10px}
 .module__list .list__item:before{content:'';position:absolute;top:0;left:-40px;background:url(assets/img/check.svg) center center/cover no-repeat;width:24px;height:24px}
+.module__list .book-image{position:relative;max-width:350px}
+.module__list .tag{font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;background:#002749;color:#fff;padding:20px 10px;text-align:center;min-width:112px;max-width:112px;border-radius:50%;box-shadow:0 0 0 8px #79c142;position:absolute;bottom:75px;right:32px}
+.module__list .tag span{display:block;line-height:1}
+.module__list .tag span.top-text{font-size:15px}
+.module__list .tag span.money{color:#f15d22;position:relative}
+.module__list .tag span.money:after{content:'';position:absolute;top:8px;left:0;right:0;margin:0 auto;width:66px;height:2px;height:2px;background:#79c142;-webkit-transform:rotate(7deg);-ms-transform:rotate(7deg);transform:rotate(7deg)}
 .module__testimonial{background-color:#f6f6f7}
 .module__testimonial .item{padding-top:20px;background:#fff;border:1px solid #efecec;border-radius:3px}
 .module__testimonial .item .image{width:100%}
@@ -676,6 +683,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .banner img{box-shadow:1px 2px 20px 0 #222}
 @media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:"Genericons";src:url("assets/fonts/Genericons/Genericons.svg#Genericons") format("svg")}
 }@media only screen and (min-width:767px){.site-footer .fat-footer .pad-right{padding-right:4em}
+.module__list .listing{margin-right:14%}
 }@media(min-width:768px){.container{width:750px}
 .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left}
 .col-sm-12{width:100%}
@@ -908,7 +916,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-footer .fat-footer .footer-logo{max-width:250px;margin-bottom:1em}
 .module__header .title{font-size:1.5em}
 .module__header .subtitle{font-size:1.3em}
-.module__list-image{max-width:150px;margin:20px auto;display:block}
+.module__list-image{max-width:250px;margin:20px auto;display:block}
 .module__text .btn-group>div{width:100%}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}

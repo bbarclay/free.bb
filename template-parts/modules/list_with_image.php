@@ -30,11 +30,16 @@
 
 		 	  </div>
 		 	  <div class="col-md-4">
+		 	  	<div class="book-image">
+		 	  	    <?php $image = get_sub_field('image');
 
-		 	  	  <?php $image = get_sub_field('image');
-
-		 	  	  	echo wp_get_attachment_image($image['id'], 'book-image','', array("class" => "module__list-image") ) ?>
-
+		 	  	  	echo wp_get_attachment_image($image['id'], 'full','', array("class" => "module__list-image") ) ?>
+		 	  	  	<div class="tag">
+		 	  	  		<span class="top-text">Normally</span>
+		 	  	  		<span class="money"><i class="sign">&#36;</i> 32.95</span>
+		 	  	  		<span class="bottom-text">Yours <br> Free</span>
+		 	  	  	</div>
+		 	  	</div>
 		 	  </div>
 
 		 </div>

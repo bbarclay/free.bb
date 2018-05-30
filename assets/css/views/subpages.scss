@@ -644,6 +644,15 @@
       h2 {
         margin-top: 0;
         font-size: 1.4em;
+
+         span {
+            color: $blue_color;
+         }
+      }
+      .listing {
+        @include min-breakpoint(767) {
+          margin-right: 14%;
+        }
       }
       &-image {
           max-width: 250px;
@@ -655,7 +664,7 @@
           }
 
           @include breakpoint(480) {
-            max-width: 150px;
+            max-width: 250px;
             margin: 20px auto;
             display: block;
           }
@@ -680,6 +689,51 @@
               height: 24px;
             }
           }
+        }
+        .book-image {
+          position: relative;
+          max-width: 350px;
+        }
+        .tag {
+            font-family: $font--GeorgeSemiBold;
+            text-transform: uppercase;
+            background: $hover_color;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+            min-width: 112px;
+            max-width: 112px;
+            border-radius: 50%;
+            box-shadow: 0px 0 0 8px $success_color; 
+            position: absolute;
+            bottom: 75px;
+            right: 32px;         
+            span {
+              display: block;
+              line-height: 1;
+
+              &.top-text {
+                font-size: 15px;
+              }
+              &.money {
+                color: $danger_color;
+                position: relative;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 8px;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    width: 66px;
+                    height: 2px;
+                    height: 2px;
+                    background: $success_color;
+                    transform: rotate(7deg);
+                }
+              }
+            }
         }
     } 
 
