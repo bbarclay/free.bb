@@ -27,33 +27,34 @@
 					   	   	     	   while( have_rows('items') ) : the_row(); ?>
 
 							   	   	     	 <div class="item">
-							   	   	     	    <?php 
-							   	   	     	    	$image = get_sub_field('image');
+							   	   	     	 	<div class="inner">
+								   	   	     	    <?php 
+								   	   	     	    	$image = get_sub_field('image');
 
-							   	   	     	    	    if( $image )  : ?>
+								   	   	     	    	    if( $image )  : ?>
 
-								   	   	     	    		<div class="thumbnail">
-								   	   	     	    			<?php echo wp_get_attachment_image($image['id'], 'full') ?>
-								   	   	     	    		</div>
+									   	   	     	    		<div class="thumbnail">
+									   	   	     	    			<?php echo wp_get_attachment_image($image['id'], 'full') ?>
+									   	   	     	    		</div>
 
-							   	   	     	    <?php   endif; 
+								   	   	     	    <?php   endif; 
 
-							   	   	     	            if(get_sub_field('title')) : ?>
+								   	   	     	            if(get_sub_field('title')) : ?>
 
-							   	   	     				  	<h3><?php echo get_sub_field('title') ?></h3>
+								   	   	     				  	<h3><?php echo get_sub_field('title') ?></h3>
 
-							   	   	     		<?php   endif; 
-							   	   	     				if(get_sub_field('author'))	: ?>
+								   	   	     		<?php   endif; 
+								   	   	     				if(get_sub_field('author'))	: ?>
 
-							   	   	     					<span><?php echo esc_html(get_sub_field('author')) ?></span>
+								   	   	     					<span><?php echo esc_html(get_sub_field('author')) ?></span>
 
-							   	   	     		<?php   endif; 
-							   	   	     				if(get_sub_field('link')) :?>
+								   	   	     		<?php   endif; 
+								   	   	     				if(get_sub_field('link')) :?>
 
-							   	   	     					<a href="<?php echo esc_url(get_sub_field('link')) ?>" class="btn btn-success" target="_blank">Download</a>
+								   	   	     					<a href="<?php echo esc_url(get_sub_field('link')) ?>" class="btn btn-success" target="_blank">Download</a>
 
-							   	   	     		<?php endif; ?>
-
+								   	   	     		<?php endif; ?>
+							   	   	     		</div>
 							   	   	     	</div>
 
 					   	   	     <?php  endwhile; 

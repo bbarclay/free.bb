@@ -502,7 +502,7 @@
          color: $navy;
          font-family: $heading_primary;
          text-transform: uppercase;
-         margin: 0 0 10px 0;
+         margin: 0;
 
          @include breakpoint(480) {
           font-size: 1.5em;
@@ -655,7 +655,7 @@
         }
       }
       &-image {
-          max-width: 250px;
+          max-width: 300px;
           display: block;
           margin: 0 auto;
 
@@ -781,6 +781,7 @@
                 font-family: $font-GeorgeLight;
                 font-style: italic;
                 color: #f15d22;
+                font-size: 16px;
              }
           }
        }

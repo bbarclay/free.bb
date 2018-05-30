@@ -581,7 +581,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .ussr .moonray-form .moonray-form-clearfix .moonray-form-element-wrapper select{margin-bottom:0}
 .module{padding:2em 0}
 .module__header{text-align:center}
-.module__header .title{color:#00274d;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;margin:0 0 10px 0}
+.module__header .title{color:#00274d;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;margin:0}
 .module__header .subtitle{margin:0;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase}
 .module__header .subtitle span{color:#2287c8}
 .module__top{padding:30px 0}
@@ -604,7 +604,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__list{background:#fff}
 .module__list h2{margin-top:0;font-size:1.4em}
 .module__list h2 span{color:#00bcff}
-.module__list-image{max-width:250px;display:block;margin:0 auto}
+.module__list-image{max-width:300px;display:block;margin:0 auto}
 .module__list .list{margin-bottom:0}
 .module__list .list__item{position:relative;margin-bottom:10px}
 .module__list .list__item:before{content:'';position:absolute;top:0;left:-40px;background:url(assets/img/check.svg) center center/cover no-repeat;width:24px;height:24px}
@@ -620,7 +620,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__testimonial .item .image img{max-width:95px !important;margin:0 auto}
 .module__testimonial .item .quote{padding:20px 30px}
 .module__testimonial .item .quote p{font-family:"Geogrotesque-Light",sans-serif;font-size:1em;margin-bottom:0}
-.module__testimonial .item .quote .meta{font-family:"Geogrotesque-Light",sans-serif;font-style:italic;color:#f15d22}
+.module__testimonial .item .quote .meta{font-family:"Geogrotesque-Light",sans-serif;font-style:italic;color:#f15d22;font-size:16px}
 .module__testimonial .owl-carousel .owl-dot:hover span,.module__testimonial .owl-carousel .owl-dot.active span{background:#f15d22 !important}
 .module__testimonial .owl-carousel .owl-nav .owl-prev{position:absolute;top:50%;left:-40px}
 .module__testimonial .owl-carousel .owl-nav .owl-prev span{font-size:1.5em;color:#dbdbdf;width:24px;height:24px;border-bottom:3px solid #dbdbdf;border-left:3px solid #dbdbdf;display:block;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
@@ -658,22 +658,23 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .footer-form{background-color:#79c142}
 .footer-form .heading{text-align:center;margin:0 0 10px 0;line-height:1}
 .site-footer{background-color:#002749;min-height:100px}
-.bookshelf{padding-top:30px}
+.bookshelf{padding-top:30px;background:#eef3f4}
 .bookshelf:nth-child(odd){background:#fbfbfb}
+.bookshelf .inner{padding:15px;background:#fff;border:1px solid #f3f2f2;border-radius:5px;border:1px solid #ddd;-webkit-transition:box-shadow .3s ease-in-out 0s;transition:box-shadow .3s ease-in-out 0s}
+.bookshelf .inner:hover{box-shadow:1px 2px 10px 0 #bcbfc1}
 .bookshelf .header{padding-bottom:10px}
-.bookshelf .header h2{margin:0 0 5px 0;font-size:22px;font-size:2.2rem}
+.bookshelf .header h2{margin:0 0 5px 0;font-size:25px;font-size:2.5rem}
 .bookshelf .header .no-of-books{text-align:right;font-size:16px;line-height:30px;color:#adabab;font-family:"Geogrotesque-Light",sans-serif}
-.bookshelf .header .no-of-books .total{color:#002749;font-family:"Geogrotesque-Medium",sans-serif;margin-right:2px}
-.bookshelf .header .description{border-top:1px solid #f1efef;padding-top:10px;color:#908c8c}
+.bookshelf .header .no-of-books .total{color:#79c142;font-family:"Geogrotesque-SemiBold",sans-serif;margin-right:2px}
+.bookshelf .header .description{padding-top:3px}
 .bookshelf .books{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-10px;margin-right:-10px}
-.bookshelf .books .item{width:25%;padding:0 10px;margin-bottom:40px;text-align:center}
-.bookshelf .books .item .thumbnail{padding:30px;border-radius:3px;background:#f3f3f3}
-.bookshelf .books .item img{box-shadow:1px 5px 30px 0 #e6e9ea;-webkit-transition:box-shadow .3s ease-in-out 0s;transition:box-shadow .3s ease-in-out 0s}
-.bookshelf .books .item h3{margin:5px 0 5px 0;line-height:1.2}
-.bookshelf .books .item span{display:block;margin-bottom:15px;color:#f15d22}
+.bookshelf .books .item{width:25%;padding:0 5px;margin-bottom:40px;text-align:center}
+.bookshelf .books .item .thumbnail{margin-bottom:15px;border-radius:3px;background:#f3f3f3}
+.bookshelf .books .item img{border:1px solid #efecec;border-right:2px solid #efecec;border-bottom:3px solid #ddd;border-radius:3px}
+.bookshelf .books .item h3{margin:5px 0 5px 0;line-height:1.2;font-size:19px;font-family:'Geogrotesque-Medium',sans-serif}
+.bookshelf .books .item span{display:block;margin-bottom:15px;color:#a9a7a6;font-size:16px;line-height:1.2}
 .bookshelf .books .item .btn{display:inline-block;padding:5px 15px;border-radius:5px;margin:0 auto;background:#7ac143 -webkit-linear-gradient(top,#7ac143 0,#639c37 100%);background:#7ac143 linear-gradient(to bottom,#7ac143 0,#639c37 100%);color:#fff;text-align:center;font-family:"Geogrotesque-SemiBold",sans-serif}
 .bookshelf .books .item .btn:hover{background:#002749;text-decoration:none}
-.bookshelf .books .item:hover img{box-shadow:1px 2px 20px 0 #bcbfc1}
 .banner{padding:40px 0;position:relative}
 .banner:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:-webkit-linear-gradient(left,#0c0c0c 10%,rgba(241,242,243,0.2));background:linear-gradient(to right,#0c0c0c 10%,rgba(241,242,243,0.2))}
 .banner h1{color:#fff;margin-top:0;line-height:1.2;font-family:"Geogrotesque-Medium",sans-serif;text-transform:uppercase;font-size:48px}
