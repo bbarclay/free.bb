@@ -10,7 +10,7 @@
 		<div class="fat-footer">
 			
 				<div class="row">
-					<div class="col-md-5">
+					<div class="<?php echo ( is_front_page() ) ? 'col-md-5' : 'col-md-8';?>">
 						<div class="pad-right">
 							<div class="footer-logo">
 								<a href="<?php echo get_bloginfo('url') ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/bb-white-logo.png" /></a>
@@ -22,7 +22,9 @@
 							<?php endif; ?> 
 						</div>
 					</div>
+					<?php if( is_front_page() || is_page('test-frontpage') ) : ?>
 					<div class="col-md-3">
+
 						<nav class="site-navigation">
 		 					<?php 
 		 						if( has_nav_menu('footer-menu') ) {
@@ -36,6 +38,8 @@
 		 					?>
 		 				</nav>
 					</div>
+					<?php endif; ?>
+					
 					<div class="col-md-4">
 						<?php 
 							if( has_nav_menu('menu') ) : 
@@ -61,18 +65,21 @@
 			<div class="tagline"></div>
 			<div class="copyright"> 
 			  <span>Copyright © 2018 Business Blueprint. All Rights Reserved.</span>
-			  <?php 
-					if( has_nav_menu('fine') ) : 
+			  <?php if( is_front_page() || is_page('test-frontpage') ) :
+			  
+						if( has_nav_menu('fine') ) : 
 
-						wp_nav_menu( array( 
+							wp_nav_menu( array( 
 
-							'theme_location' => 'fine',
-							'menu_class' => 'menu--fine',
-							'container' => false,
+								'theme_location' => 'fine',
+								'menu_class' => 'menu--fine',
+								'container' => false,
 
 
-						) );
+							) );
 
+						endif;	
+						
 					endif;	
 				?>
 			</div>

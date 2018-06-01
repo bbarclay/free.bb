@@ -658,28 +658,28 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .footer-form{background-color:#79c142}
 .footer-form .heading{text-align:center;margin:0 0 10px 0;line-height:1}
 .site-footer{background-color:#002749;min-height:100px}
-.bookshelf{padding-top:30px}
-.bookshelf .inner{padding:20px;background:#f7f7f7;border-radius:5px;-webkit-transition:box-shadow .3s ease-in-out 0s;transition:box-shadow .3s ease-in-out 0s}
-.bookshelf .inner:hover{box-shadow:1px 2px 10px 0 #bcbfc1}
+.bookshelf{padding-top:30px;background:#f7f6f6}
+.bookshelf .inner{border-radius:3px}
+.bookshelf .inner:hover img{box-shadow:1px 2px 10px 0 #bcbfc1}
 .bookshelf .header{padding-bottom:10px}
-.bookshelf .header h2{margin:0 0 5px 0;color:#f15d22;font-size:25px;font-size:2.5rem}
+.bookshelf .header h2{margin:0 0 5px 0;color:#002749;font-size:25px;font-size:2.5rem}
 .bookshelf .header .no-of-books{text-align:right;font-size:16px;line-height:30px;color:#adabab;font-family:"Geogrotesque-Light",sans-serif}
-.bookshelf .header .no-of-books .total{color:#002749;font-family:"Geogrotesque-SemiBold",sans-serif;margin-right:2px}
+.bookshelf .header .no-of-books .total{color:#79c142;font-family:"Geogrotesque-SemiBold",sans-serif;margin-right:2px}
 .bookshelf .header .description{padding-top:3px}
-.bookshelf .books{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-10px;margin-right:-10px}
-.bookshelf .books .item{width:25%;padding:0 5px;margin-bottom:40px;text-align:center}
-.bookshelf .books .item .thumbnail{margin-bottom:15px;border-radius:3px;background:#f3f3f3}
-.bookshelf .books .item img{border:1px solid #efecec;border-radius:3px}
+.bookshelf .books{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px}
+.bookshelf .books .item{width:25%;padding:0 15px;margin-bottom:40px;text-align:center}
+.bookshelf .books .item .thumbnail{margin-bottom:15px}
+.bookshelf .books .item img{border:1px solid #ececec;border-radius:3px;-webkit-transition:box-shadow .3s ease-in-out 0s;transition:box-shadow .3s ease-in-out 0s}
 .bookshelf .books .item h3{margin:5px 0 5px 0;line-height:1.2;font-size:19px;min-height:47px;font-family:'Geogrotesque-Medium',sans-serif}
-.bookshelf .books .item span{display:block;margin-bottom:15px;color:#a9a7a6;font-size:16px;line-height:1.2}
+.bookshelf .books .item span{display:block;margin-bottom:15px;color:#f15d22;font-size:16px;line-height:1.2}
 .bookshelf .books .item .btn{display:inline-block;padding:5px 15px;border-radius:5px;margin:0 auto;background:#7ac143 -webkit-linear-gradient(top,#7ac143 0,#639c37 100%);background:#7ac143 linear-gradient(to bottom,#7ac143 0,#639c37 100%);color:#fff;text-align:center;font-family:"Geogrotesque-SemiBold",sans-serif}
 .bookshelf .books .item .btn:hover{background:#002749;text-decoration:none}
 .banner{padding:40px 0;position:relative}
 .banner:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:-webkit-linear-gradient(left,#0c0c0c 10%,rgba(241,242,243,0.2));background:linear-gradient(to right,#0c0c0c 10%,rgba(241,242,243,0.2))}
 .banner h1{color:#fff;margin-top:0;line-height:1.2;font-family:"Geogrotesque-Medium",sans-serif;text-transform:uppercase;font-size:48px}
-.banner h1 span{display:inline-block;padding:5px 10px;background-color:#79c142;line-height:1}
+.banner h1 span{display:inline-block;padding:3px 10px;background-color:#79c142;line-height:1}
 .banner .description{color:#fff;margin-bottom:20px}
-.banner .description p{margin:0}
+.banner .description p{margin:0;font-family:"Geogrotesque-Light",sans-serif;font-size:20px}
 .banner img{box-shadow:1px 2px 20px 0 #222}
 @media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:"Genericons";src:url("assets/fonts/Genericons/Genericons.svg#Genericons") format("svg")}
 }@media only screen and (min-width:767px){.site-footer .fat-footer .pad-right{padding-right:4em}
@@ -749,6 +749,8 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .grid__column--m-3{width:25%}
 .grid__column--m-2{width:16.66666667%}
 .grid__column--m-1{width:8.33333333%}
+}@media only screen and (min-width:768px){.bookshelf .header .description{margin-right:20%}
+.banner .description{margin-right:20%}
 }@media(min-width:960px){.grid__column--l-12{width:100%}
 .grid__column--l-11{width:91.66666667%}
 .grid__column--l-10{width:83.33333333%}
@@ -910,6 +912,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__testimonial .owl-carousel{padding:0 25px}
 .module__testimonial .owl-carousel .owl-nav .owl-prev{left:0}
 .module__testimonial .owl-carousel .owl-nav .owl-next{right:0}
+.banner h1{font-size:32px}
 }@media only screen and (max-width:600px){.subpage .landing-footer .col-1{width:100%;float:none;text-align:center}
 .subpage .landing-footer .col-3{width:100%;float:none}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
