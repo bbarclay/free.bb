@@ -545,6 +545,10 @@
         margin: 0;
         color: #fff;
         text-transform: inherit;
+
+         span {
+          color: $blue_color;
+        }       
       }
       .subtitle {
         text-transform: inherit;
@@ -591,7 +595,12 @@
     ==================================  */
     &__form {
         padding: 1em 0;
-        
+
+        &--horizontal {
+              background: #95ce69;
+              border-radius: 3px;
+        }
+
     }
     .form {
           padding: 20px 10px;
