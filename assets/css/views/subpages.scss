@@ -535,13 +535,25 @@
     ==================================  */
     &__hero {
       /*background: url(assets/img/sydney-bg.jpg) bottom center / cover no-repeat;*/
-      background-color: #f6f6f7;
+      background-color: $hover_color;
+
+      &-header {
+        margin-bottom: 30px;
+      }
 
       .title {
         margin: 0;
+        color: #fff;
+        text-transform: inherit;
       }
       .subtitle {
+        text-transform: inherit;
         margin-bottom: 20px;
+        color: #fff;
+
+        span {
+          color: $blue_color;
+        }
       }
 
     }
@@ -579,13 +591,14 @@
     ==================================  */
     &__form {
         padding: 1em 0;
+        
     }
     .form {
           padding: 20px 10px;
           background: #ffffff;
           border-radius: 4px;
-          -webkit-box-shadow: 0 2px 10px #ddd;
-          box-shadow: 0 2px 10px #ddd;
+          -webkit-box-shadow: 0 2px 14px #021e35;
+          box-shadow: 0 2px 14px #021e35;
 
           @include breakpoint(991) {
             margin-top: 40px;

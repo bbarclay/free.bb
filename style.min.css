@@ -585,16 +585,18 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__header .subtitle{margin:0;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase}
 .module__header .subtitle span{color:#2287c8}
 .module__top{padding:30px 0}
-.module__hero{background-color:#f6f6f7}
-.module__hero .title{margin:0}
-.module__hero .subtitle{margin-bottom:20px}
+.module__hero{background-color:#002749}
+.module__hero-header{margin-bottom:30px}
+.module__hero .title{margin:0;color:#fff;text-transform:inherit}
+.module__hero .subtitle{text-transform:inherit;margin-bottom:20px;color:#fff}
+.module__hero .subtitle span{color:#00bcff}
 .module__video{background:url(assets/img/sydney-bg.jpg) bottom center/cover no-repeat}
 .module__video .section-header{text-align:center}
 .module__video .section-header .title{color:#2287c8;font-size:1.3em}
 .module__video .title,.module__video .subtitle{text-transform:inherit;margin:0}
 .module__video .inner-frame{box-shadow:0 2px 20px #797878;margin:0 auto;display:block}
 .module__form{padding:1em 0}
-.module .form{padding:20px 10px;background:#fff;border-radius:4px;box-shadow:0 2px 10px #ddd}
+.module .form{padding:20px 10px;background:#fff;border-radius:4px;box-shadow:0 2px 14px #021e35}
 .module .form__title{text-align:center;margin:0 0 10px 0;line-height:1}
 .module .form__note{padding:0 15px;font-size:15px;line-height:1.4;text-align:center;color:#9c9c9c;margin:0}
 .module .form__fields{display:block}

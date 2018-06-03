@@ -31,14 +31,23 @@
 		 	  </div>
 		 	  <div class="col-md-4">
 		 	  	<div class="book-image">
-		 	  	    <?php $image = get_sub_field('image');
+		 	  	    <?php 
 
-		 	  	  	echo wp_get_attachment_image($image['id'], 'full','', array("class" => "module__list-image") ) ?>
+		 	  	    	$image = get_sub_field('image');
+		 	  	    	$is_tag = get_sub_field('price_tag');
+
+		 	  	  	echo wp_get_attachment_image($image['id'], 'full','', array("class" => "module__list-image") ) ;
+
+		 	  	  	if( $is_tag ) : ?>
 		 	  	  	<div class="tag">
 		 	  	  		<span class="top-text">Normally</span>
 		 	  	  		<span class="money"><i class="sign">&#36;</i> 32.95</span>
 		 	  	  		<span class="bottom-text">Yours <br> Free</span>
 		 	  	  	</div>
+		 	  	  	<?php 
+		 	  	  	endif;
+
+		 	  	  	?>
 		 	  	</div>
 		 	  </div>
 
