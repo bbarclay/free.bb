@@ -696,7 +696,7 @@
         }
       }
       &-image {
-          max-width: 250px;
+          max-width: 270px;
           display: block;
           margin: 0 auto;
 
@@ -705,6 +705,7 @@
           }
           @include breakpoint(767) {
              margin: 20px auto;
+             max-width: 250px;
           }
 
           @include breakpoint(480) {

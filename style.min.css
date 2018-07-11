@@ -608,7 +608,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__list{background:#fff}
 .module__list h2{margin-top:0;font-size:1.4em}
 .module__list h2 span{color:#00bcff}
-.module__list-image{max-width:250px;display:block;margin:0 auto}
+.module__list-image{max-width:270px;display:block;margin:0 auto}
 .module__list .list{margin-bottom:0}
 .module__list .list__item{position:relative;margin-bottom:10px}
 .module__list .list__item:before{content:'';position:absolute;top:0;left:-40px;background:url(assets/img/check.svg) center center/cover no-repeat;width:24px;height:24px}
@@ -921,7 +921,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module .form__fields{display:block;margin:0 auto}
 .module__list h2{font-size:24px}
 .module__list .listing{margin-right:0}
-.module__list-image{margin:20px auto}
+.module__list-image{margin:20px auto;max-width:250px}
 .module__list .tag{bottom:0;left:auto;right:-10px}
 .module__list .tag{bottom:0;left:auto;right:-10px}
 .module__testimonial .owl-carousel{padding:0 25px}
