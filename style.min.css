@@ -612,7 +612,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__list .list{margin-bottom:0}
 .module__list .list__item{position:relative;margin-bottom:10px}
 .module__list .list__item:before{content:'';position:absolute;top:0;left:-40px;background:url(assets/img/check.svg) center center/cover no-repeat;width:24px;height:24px}
-.module__list .book-image{position:relative;max-width:300px}
+.module__list .book-image{position:relative}
 .module__list .tag{font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;background:#002749;color:#fff;padding:20px 10px;text-align:center;min-width:112px;max-width:112px;border-radius:50%;box-shadow:0 0 0 8px #79c142;position:absolute;bottom:75px;right:32px}
 .module__list .tag span{display:block;line-height:1}
 .module__list .tag span.top-text{font-size:15px}
