@@ -919,6 +919,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 #menu-social{margin-bottom:0}
 .module .form__note{display:block}
 .module .form__fields{display:block;margin:0 auto}
+.module__list h2{font-size:24px}
 .module__list .listing{margin-right:0}
 .module__list-image{margin:20px auto}
 .module__list .tag{bottom:0;left:auto;right:-10px}

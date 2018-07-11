@@ -682,6 +682,10 @@
          span {
             color: $blue_color;
          }
+
+         @include breakpoint(767) {
+           font-size: 24px;
+         }
       }
       .listing {
         @include breakpoint(991) {
