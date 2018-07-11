@@ -1,4 +1,8 @@
-
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
 .subpage {
 
   .custom-fullwidth {
@@ -542,7 +546,7 @@
     *   Hero 
     ==================================  */
     &__hero {
-      /*background: url(assets/img/sydney-bg.jpg) bottom center / cover no-repeat;*/
+      background: url(assets/img/bg.jpg) center center / cover no-repeat;
       background-color: $hover_color;
 
 
@@ -678,14 +682,17 @@
           margin-right: 14%;
         }
         @include breakpoint(767) {
-          margin-right: 12%;
+          margin-right: 0;
         }
       }
       &-image {
-          max-width: 100%;
+          max-width: 250px;
           display: block;
           margin: 0 auto;
 
+          @include breakpoint(991) {
+            max-width: 100%;
+          }
           @include breakpoint(767) {
              margin: 20px auto;
           }
@@ -719,7 +726,8 @@
         }
         .book-image {
           position: relative;
-          max-width: 350px;
+          max-width: 250px;
+
         }
         .tag {
             font-family: $font--GeorgeSemiBold;
@@ -739,7 +747,17 @@
             @include breakpoint(991) {
                bottom: -38px;
                left: -49px;
-            }        
+            } 
+            @include breakpoint(767) {
+              bottom: 0;
+              left: auto;
+              right: -10px;
+            }  
+            @include breakpoint(767) {
+              bottom: 0;
+              left: auto;
+              right: -10px;
+            }     
             span {
               display: block;
               line-height: 1;

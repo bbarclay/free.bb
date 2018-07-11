@@ -585,7 +585,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__header .subtitle{margin:0;font-family:"Geogrotesque-Medium",sans-serif;text-transform:uppercase}
 .module__header .subtitle span{color:#2287c8}
 .module__top{padding:30px 0}
-.module__hero{background-color:#002749}
+.module__hero{background:url(assets/img/bg.jpg) center center/cover no-repeat;background-color:#002749}
 .module__hero .title{margin:0;color:#fff;text-transform:inherit}
 .module__hero .title span{color:#00bcff}
 .module__hero .subtitle{text-transform:inherit;margin-bottom:20px;color:#fff}
@@ -607,11 +607,11 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__list{background:#fff}
 .module__list h2{margin-top:0;font-size:1.4em}
 .module__list h2 span{color:#00bcff}
-.module__list-image{max-width:100%;display:block;margin:0 auto}
+.module__list-image{max-width:250px;display:block;margin:0 auto}
 .module__list .list{margin-bottom:0}
 .module__list .list__item{position:relative;margin-bottom:10px}
 .module__list .list__item:before{content:'';position:absolute;top:0;left:-40px;background:url(assets/img/check.svg) center center/cover no-repeat;width:24px;height:24px}
-.module__list .book-image{position:relative;max-width:350px}
+.module__list .book-image{position:relative;max-width:250px}
 .module__list .tag{font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;background:#002749;color:#fff;padding:20px 10px;text-align:center;min-width:112px;max-width:112px;border-radius:50%;box-shadow:0 0 0 8px #79c142;position:absolute;bottom:75px;right:32px}
 .module__list .tag span{display:block;line-height:1}
 .module__list .tag span.top-text{font-size:15px}
@@ -751,6 +751,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .grid__column--m-3{width:25%}
 .grid__column--m-2{width:16.66666667%}
 .grid__column--m-1{width:8.33333333%}
+.container{width:100%}
 }@media only screen and (min-width:768px){.bookshelf .header .description{margin-right:20%}
 .banner .description{margin-right:20%}
 }@media(min-width:960px){.grid__column--l-12{width:100%}
@@ -896,6 +897,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module .form .moonray-form{width:100%;padding:0}
 .module .form__title{margin-top:10px}
 .module__list .listing{margin-right:14%}
+.module__list-image{max-width:100%}
 .module__list .list{margin-bottom:1em}
 .module__list .tag{bottom:-38px;left:-49px}
 .module__testimonial .item .image{width:100%;max-width:120px;margin:0 auto}
@@ -914,8 +916,10 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-logo{padding:15px 0}
 #menu-social{margin-bottom:0}
 .module .form__fields{display:block;margin:0 auto}
-.module__list .listing{margin-right:12%}
+.module__list .listing{margin-right:0}
 .module__list-image{margin:20px auto}
+.module__list .tag{bottom:0;left:auto;right:-10px}
+.module__list .tag{bottom:0;left:auto;right:-10px}
 .module__testimonial .owl-carousel{padding:0 25px}
 .module__testimonial .owl-carousel .owl-nav .owl-prev{left:0}
 .module__testimonial .owl-carousel .owl-nav .owl-next{right:0}
