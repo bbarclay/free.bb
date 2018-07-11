@@ -40,7 +40,7 @@ table{border-collapse:collapse;border-spacing:0}
 td,th{padding:0}
 *{box-sizing:border-box}
 *:before,*:after{box-sizing:border-box}
-html{font-size:10px;-webkit-tap-highlight-color:transparent}
+html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}
 body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}
 input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
 a{color:#337ab7;text-decoration:none}
@@ -398,7 +398,7 @@ a img.alignright{float:right;margin:5px 0 20px 20px}
 a img.alignnone{margin:5px 20px 20px 0}
 a img.alignleft{float:left;margin:5px 20px 20px 0}
 a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
-.wp-caption{background:#c5c5c5;max-width:100%;padding:2rem;text-align:center}
+.wp-caption{background:#c5c4c4;max-width:100%;padding:2rem;text-align:center}
 .wp-caption.alignnone{margin:5px 20px 20px 0}
 .wp-caption.alignleft{margin:5px 20px 20px 0}
 .wp-caption.alignright{margin:5px 0 20px 20px}
@@ -582,11 +582,10 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module{padding:2em 0}
 .module__header{text-align:center}
 .module__header .title{color:#00274d;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;margin:0}
-.module__header .subtitle{margin:0;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase}
+.module__header .subtitle{margin:0;font-family:"Geogrotesque-Medium",sans-serif;text-transform:uppercase}
 .module__header .subtitle span{color:#2287c8}
 .module__top{padding:30px 0}
 .module__hero{background-color:#002749}
-.module__hero-header{margin-bottom:30px}
 .module__hero .title{margin:0;color:#fff;text-transform:inherit}
 .module__hero .title span{color:#00bcff}
 .module__hero .subtitle{text-transform:inherit;margin-bottom:20px;color:#fff}
@@ -608,7 +607,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__list{background:#fff}
 .module__list h2{margin-top:0;font-size:1.4em}
 .module__list h2 span{color:#00bcff}
-.module__list-image{max-width:300px;display:block;margin:0 auto}
+.module__list-image{max-width:100%;display:block;margin:0 auto}
 .module__list .list{margin-bottom:0}
 .module__list .list__item{position:relative;margin-bottom:10px}
 .module__list .list__item:before{content:'';position:absolute;top:0;left:-40px;background:url(assets/img/check.svg) center center/cover no-repeat;width:24px;height:24px}
@@ -893,6 +892,8 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .subpage .landing-footer .col-1{width:40%;float:left}
 .subpage .landing-footer .col-3{width:60%;float:right}
 }@media only screen and (max-width:991px){#menu-footer-menu li{display:inline-block;margin:0 .2em .2em 0}
+.module__header .title{font-size:35px}
+.module__header .subtitle{font-size:25px}
 .module .form{margin-top:40px}
 .module .form .moonray-form{width:100%;padding:0}
 .module .form__title{margin-top:20px}
@@ -903,6 +904,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__form--horizontal .moonray-form .moonray-form-clearfix .moonray-form-element-wrapper{width:100%;padding:5px}
 .video__frame{margin:0 auto 20px auto;display:block}
 .bookshelf .books .item{width:50%}
+.banner h1{font-size:35px}
 }@media only screen and (max-width:768px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.9rem/1.7 sans-serif}
 .subpage .landing-footer{display:none}
 }@media only screen and (max-width:767px){.site-header .navbar-toggle{display:block}

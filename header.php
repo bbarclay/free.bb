@@ -20,14 +20,14 @@
 	 <div class="container">
  		
  		<div class="row">
- 			<div class="col-xs-8 col-sm-3 col-md-3">
+ 			<div class="col-xs-5 col-sm-4 col-md-3">
  				<div class="site-logo">
  					<a href="<?php echo site_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/bb-logo.svg"  width="240"/></a>
  				</div>
  			</div>
 
  			<?php if( is_front_page() || is_page('test-frontpage') ) : ?>
-	 			<div class="col-xs-4 col-sm-9 col-sm-9">
+	 			<div class="col-xs-4 col-sm-4 col-sm-9">
 
 	 				<nav class="site-navigation desktop-menu">
 	 					<?php 

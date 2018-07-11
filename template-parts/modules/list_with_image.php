@@ -4,7 +4,7 @@
 
 		 <div class="row">
 
-		 	  <div class="col-md-8">
+		 	  <div class="col-sm-9 col-md-8">
 
 		 	  		<div class="listing">	
 
@@ -29,7 +29,7 @@
 		 	  		</div>
 
 		 	  </div>
-		 	  <div class="col-md-4">
+		 	  <div class="col-sm-3 col-md-4">
 		 	  	<div class="book-image">
 		 	  	    <?php 
 

@@ -17,7 +17,7 @@
 
 		 <div class="row">
 
-		 	<div class="col-md-8">
+		 	<div class="col-sm-8">
 
 		 	    <div class="module__hero-video">
 		 	    	<?php if( get_sub_field('video') )  { ?>
@@ -27,7 +27,7 @@
 
 		 	</div>
 
-		 	<div class="col-md-4">
+		 	<div class="col-sm-4">
 		 	      
 		 	 	 <div class="form">
 

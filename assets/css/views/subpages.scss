@@ -504,17 +504,23 @@
          text-transform: uppercase;
          margin: 0;
 
+         @include breakpoint(991) {
+          font-size: 35px;
+         }
          @include breakpoint(480) {
           font-size: 1.5em;
          }
       }
       .subtitle {
         margin: 0;
-        font-family: $heading_primary;
+        font-family: $font-GeorgeMedium;
         text-transform: uppercase;
 
         span {
           color: $blue;
+        }
+        @include breakpoint(991) {
+          font-size: 25px;
         }
         @include breakpoint(480) {
           font-size: 1.3em;
@@ -537,9 +543,6 @@
       /*background: url(assets/img/sydney-bg.jpg) bottom center / cover no-repeat;*/
       background-color: $hover_color;
 
-      &-header {
-        margin-bottom: 30px;
-      }
 
       .title {
         margin: 0;
@@ -677,7 +680,7 @@
         }
       }
       &-image {
-          max-width: 300px;
+          max-width: 100%;
           display: block;
           margin: 0 auto;
 

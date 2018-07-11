@@ -20,6 +20,9 @@
       text-transform: uppercase;
       font-size: 48px;
 
+      @include breakpoint(991) {
+        font-size: 35px;
+      }
       @include breakpoint(767) {
         font-size: 32px;
       }
