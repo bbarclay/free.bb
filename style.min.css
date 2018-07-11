@@ -908,6 +908,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .video__frame{margin:0 auto 20px auto;display:block}
 .bookshelf .books .item{width:50%}
 .banner h1{font-size:35px}
+}@media only screen and (max-width:850px){.module .form__note{display:none}
 }@media only screen and (max-width:768px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.9rem/1.7 sans-serif}
 .subpage .landing-footer{display:none}
 }@media only screen and (max-width:767px){.site-header .navbar-toggle{display:block}
@@ -916,6 +917,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header .mobile-menu{display:block}
 .logo-side img{padding-top:5px;max-width:200px}
 #menu-social{margin-bottom:0}
+.module .form__note{display:block}
 .module .form__fields{display:block;margin:0 auto}
 .module__list .listing{margin-right:0}
 .module__list-image{margin:20px auto}
@@ -935,6 +937,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__list-image{max-width:250px;margin:20px auto;display:block}
 .module__text .btn-group>div{width:100%}
 }@media only screen and (max-width:400px){.logo-side img{max-width:100%}
+}@media only screen and (max-width:370px){.site-logo{padding:10px 0}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
 }@-webkit-keyframes fadeOut{0%{opacity:1}
