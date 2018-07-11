@@ -20,10 +20,17 @@
 	 <div class="container">
  		
  		<div class="row">
- 			<div class="col-xs-5 col-sm-4 col-md-3">
+ 			<div class="col-xs-6 col-sm-4 col-md-3">
  				<div class="site-logo">
  					<a href="<?php echo site_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/bb-logo.svg"  width="240"/></a>
  				</div>
+ 			</div>
+ 			<div class="col-xs-6 col-sm-8 col-md-9">
+ 				<?php if( is_page('property-millionaires') ) :?>	
+ 				<div class="logo-side float-right">
+ 					<a href="<?php echo site_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Metropole-website-logo.jpg"  width="240"/></a>
+ 				</div>
+ 				<?php endif; ?>
  			</div>
 
  			<?php if( is_front_page() || is_page('test-frontpage') ) : ?>

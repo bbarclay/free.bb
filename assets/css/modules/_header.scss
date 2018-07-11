@@ -115,11 +115,8 @@
 }
 .site-logo {
 	max-width: 250px;
-	padding: 20px 0;
+	padding: 15px 0;
 
-	@include breakpoint(767) {
-		padding: 15px 0;
-	}
 }
 
 .site-navigation {
@@ -210,4 +207,22 @@
 			text-decoration: none;
 		}
 	}
+
 }
+
+	.logo-side {
+		img {
+			padding: 0;
+			@include breakpoint(767) {
+				padding-top: 5px;
+				max-width: 200px;
+			}
+			@include breakpoint(500) {
+				padding-top: 10px;
+				max-width: 150px;
+			}
+			@include breakpoint(400) {
+				max-width: 100%;
+			}
+		}
+	}
