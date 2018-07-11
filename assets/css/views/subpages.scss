@@ -498,6 +498,7 @@
 
    &__header {
       text-align: center;
+      margin-bottom: 1em;
       .title {
          color: $navy;
          font-family: $heading_primary;
@@ -535,6 +536,7 @@
       padding: 30px 0;
     }
     
+
 
     /** ==================================
     *   Hero 
@@ -612,9 +614,6 @@
           -webkit-box-shadow: 0 2px 14px #021e35;
           box-shadow: 0 2px 14px #021e35;
 
-          @include breakpoint(991) {
-            margin-top: 40px;
-          }
           .moonray-form {
 
             @include breakpoint(991) {
@@ -628,7 +627,7 @@
             line-height: 1;
 
             @include breakpoint(991) {
-              margin-top: 20px;
+              margin-top: 10px;
             }
           }
           &__note {
@@ -675,8 +674,11 @@
          }
       }
       .listing {
-        @include min-breakpoint(767) {
+        @include breakpoint(991) {
           margin-right: 14%;
+        }
+        @include breakpoint(767) {
+          margin-right: 12%;
         }
       }
       &-image {
@@ -732,7 +734,12 @@
             box-shadow: 0px 0 0 8px $success_color; 
             position: absolute;
             bottom: 75px;
-            right: 32px;         
+            right: 32px; 
+
+            @include breakpoint(991) {
+               bottom: -38px;
+               left: -49px;
+            }        
             span {
               display: block;
               line-height: 1;

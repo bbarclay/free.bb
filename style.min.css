@@ -580,7 +580,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .ussr .moonray-form .moonray-form-clearfix .moonray-form-element-wrapper input[type='submit'],.ussr .moonray-form .moonray-form-clearfix .moonray-form-element-wrapper select[type='submit']{width:100% !important;color:#fff;font-size:1.5em;font-family:"Geogrotesque-SemiBold",sans-serif;border:0}
 .ussr .moonray-form .moonray-form-clearfix .moonray-form-element-wrapper select{margin-bottom:0}
 .module{padding:2em 0}
-.module__header{text-align:center}
+.module__header{text-align:center;margin-bottom:1em}
 .module__header .title{color:#00274d;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;margin:0}
 .module__header .subtitle{margin:0;font-family:"Geogrotesque-Medium",sans-serif;text-transform:uppercase}
 .module__header .subtitle span{color:#2287c8}
@@ -686,7 +686,6 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .banner img{box-shadow:1px 2px 20px 0 #222}
 @media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:"Genericons";src:url("assets/fonts/Genericons/Genericons.svg#Genericons") format("svg")}
 }@media only screen and (min-width:767px){.site-footer .fat-footer .pad-right{padding-right:4em}
-.module__list .listing{margin-right:14%}
 }@media(min-width:768px){.container{width:750px}
 .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left}
 .col-sm-12{width:100%}
@@ -894,10 +893,11 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 }@media only screen and (max-width:991px){#menu-footer-menu li{display:inline-block;margin:0 .2em .2em 0}
 .module__header .title{font-size:35px}
 .module__header .subtitle{font-size:25px}
-.module .form{margin-top:40px}
 .module .form .moonray-form{width:100%;padding:0}
-.module .form__title{margin-top:20px}
+.module .form__title{margin-top:10px}
+.module__list .listing{margin-right:14%}
 .module__list .list{margin-bottom:1em}
+.module__list .tag{bottom:-38px;left:-49px}
 .module__testimonial .item .image{width:100%;max-width:120px;margin:0 auto}
 .module__testimonial .item .quote{width:100%;text-align:center}
 .module__form--horizontal .moonray-form{padding:10px}
@@ -914,6 +914,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-logo{padding:15px 0}
 #menu-social{margin-bottom:0}
 .module .form__fields{display:block;margin:0 auto}
+.module__list .listing{margin-right:12%}
 .module__list-image{margin:20px auto}
 .module__testimonial .owl-carousel{padding:0 25px}
 .module__testimonial .owl-carousel .owl-nav .owl-prev{left:0}
