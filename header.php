@@ -26,9 +26,12 @@
  				</div>
  			</div>
  			<div class="col-xs-6 col-sm-8 col-md-9">
- 				<?php if( is_page(2029) ) :?>	
+ 				<?php
+ 				$logo = get_field('logo');
+
+ 				if( $logo ) :?>	
  				<div class="logo-side float-right">
- 					<a href="<?php echo site_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Metropole-website-logo.jpg"  width="240"/></a>
+ 					<img src="<?php echo $logo['url'] ?>" alt="company logo"  width="240"/>
  				</div>
  				<?php endif; ?>
  			</div>
