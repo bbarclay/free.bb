@@ -6,12 +6,11 @@
 		<?php if( get_sub_field('heading') ) : ?>
 			<div class="module__header module__hero-header">
 
-				
-	 	  	  	<h2><?php echo get_sub_field('heading') ?></h2>
-
 	 	  	  	<?php if( get_sub_field('subheading') )  { ?>
-	 	  	  			<h1><?php echo get_sub_field('subheading') ?></h1> 
+	 	  	  			<h2 class="subtitle"><?php echo get_sub_field('subheading') ?></h2> 
 	 	  	  	<?php } ?>	
+	 	  	  	<h1 class="title"><?php echo get_sub_field('heading') ?></h1>
+
 
 	 	  	</div><!-- ./hero__header -->
 	 	  <?php endif; ?> 

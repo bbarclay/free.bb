@@ -554,14 +554,13 @@
         .title {
             margin: 0;
 
-            font-family: $heading_primary;
+            font-family: $font--GeorgeSemiBold;
+            font-size: 42px;
 
-            text-transform: uppercase;
-
-            color: $navy;
+            color: $secondary;
 
             @include breakpoint(480) {
-                font-size: 1.5em;
+                font-size: 32px;
             }
             @include breakpoint(991) {
                 font-size: 35px;
@@ -570,17 +569,25 @@
         .subtitle {
             margin: 0;
 
-            font-family: $font-GeorgeMedium;
+            font-family: $font-GeorgeLight;
+            font-size: 33px;
 
+            @include breakpoint(376) {
+                font-size: 19px;
+            }
             @include breakpoint(480) {
-                font-size: 1.3em;
+                font-size: 22px;
             }
             @include breakpoint(991) {
                 font-size: 25px;
             }
 
             span {
-                color: $blue;
+                font-style: italic;
+
+                text-decoration: underline;
+
+                color: #fff;
             }
         }
     }
@@ -606,10 +613,16 @@
             margin: 0;
 
             font-weight: normal;
+            line-height: 1;
 
             text-transform: inherit;
 
-            color: $blue_color;
+            color: #00bce4;
+
+            span,
+            strong {
+                font-weight: normal;
+            }
         }
         h2 {
             margin: 0;
@@ -622,6 +635,7 @@
 
             span,
             strong {
+                font-family: $font-GeorgeMedium;
                 font-weight: normal;
             }
         }
@@ -687,18 +701,28 @@
             margin: 0 0 10px 0;
 
             font-family: $font--GeorgeSemiBold;
-            font-size: 30px;
+            font-size: 28px;
             line-height: 1;
 
             text-align: center;
 
+            @include breakpoint(480) {
+                margin: 0;
+
+                font-size: 22px;
+            }
+            @include breakpoint(767) {
+                margin: 0;
+
+                font-size: 25px;
+            }
             @include breakpoint(991) {
                 margin-top: 10px;
+
+                font-size: 25px;
             }
 
             span {
-                font-style: italic;
-
                 text-decoration: underline;
             }
         }
@@ -737,6 +761,9 @@
                 border: 5px;
 
                 &[type="submit"] {
+                    height: 50px !important;
+
+                    font-size: 24px !important;
                     line-height: 1;
 
                     border: 0 !important;

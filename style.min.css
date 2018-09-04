@@ -582,14 +582,15 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .ussr .moonray-form .moonray-form-clearfix .moonray-form-element-wrapper select{margin-bottom:0}
 .module{padding:2em 0}
 .module__header{margin-bottom:1em;text-align:center}
-.module__header .title{margin:0;font-family:"Geogrotesque-SemiBold",sans-serif;text-transform:uppercase;color:#00274d}
-.module__header .subtitle{margin:0;font-family:"Geogrotesque-Medium",sans-serif}
-.module__header .subtitle span{color:#2287c8}
+.module__header .title{margin:0;font-family:"Geogrotesque-SemiBold",sans-serif;font-size:42px;color:#00bce4}
+.module__header .subtitle{margin:0;font-family:"Geogrotesque-Light",sans-serif;font-size:33px}
+.module__header .subtitle span{font-style:italic;text-decoration:underline;color:#fff}
 .module__top{padding:30px 0}
 .module__hero{background:url(assets/img/bg.jpg) center center/cover no-repeat;background-color:#002749}
-.module__hero h1{margin:0;font-weight:normal;text-transform:inherit;color:#00bcff}
+.module__hero h1{margin:0;font-weight:normal;line-height:1;text-transform:inherit;color:#00bce4}
+.module__hero h1 span,.module__hero h1 strong{font-weight:normal}
 .module__hero h2{margin:0;font-family:"Geogrotesque-Light",sans-serif;text-transform:inherit;color:#fff}
-.module__hero h2 span,.module__hero h2 strong{font-weight:normal}
+.module__hero h2 span,.module__hero h2 strong{font-family:"Geogrotesque-Medium",sans-serif;font-weight:normal}
 .module__video{background:url(assets/img/sydney-bg.jpg) bottom center/cover no-repeat}
 .module__video .section-header{text-align:center}
 .module__video .section-header .title{font-size:1.3em;color:#2287c8}
@@ -598,13 +599,13 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__form{padding:1em 0}
 .module__form--horizontal{border-radius:3px;background:#95ce69}
 .module .form{padding:20px 10px;border-radius:4px;background:#fff;box-shadow:0 2px 14px #021e35}
-.module .form__title{margin:0 0 10px 0;font-family:"Geogrotesque-SemiBold",sans-serif;font-size:30px;line-height:1;text-align:center}
-.module .form__title span{font-style:italic;text-decoration:underline}
+.module .form__title{margin:0 0 10px 0;font-family:"Geogrotesque-SemiBold",sans-serif;font-size:28px;line-height:1;text-align:center}
+.module .form__title span{text-decoration:underline}
 .module .form__note{padding:0 15px;margin:0;font-size:15px;line-height:1.4;text-align:center;color:#9c9c9c}
 .module .form__fields{display:block}
 .module .form__fields p{margin:0}
 .module .form__fields input{padding:4px 5px;border:5px}
-.module .form__fields input[type="submit"]{line-height:1;border:0 !important}
+.module .form__fields input[type="submit"]{height:50px !important;font-size:24px !important;line-height:1;border:0 !important}
 .module__list{background:#fff}
 .module__list h2{margin-top:0;font-size:1.4em}
 .module__list h2 span{color:#00bcff}
@@ -896,7 +897,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__header .title{font-size:35px}
 .module__header .subtitle{font-size:25px}
 .module .form .moonray-form{width:100%;padding:0}
-.module .form__title{margin-top:10px}
+.module .form__title{margin-top:10px;font-size:25px}
 .module__list .listing{margin-right:14%}
 .module__list-image{max-width:100%}
 .module__list .list{margin-bottom:1em}
@@ -917,6 +918,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header .mobile-menu{display:block}
 .logo-side img{padding-top:5px;max-width:200px}
 #menu-social{margin-bottom:0}
+.module .form__title{margin:0;font-size:25px}
 .module .form__note{display:block}
 .module .form__fields{display:block;margin:0 auto}
 .module__list h2{font-size:24px}
@@ -933,11 +935,13 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 }@media only screen and (max-width:500px){.logo-side img{padding-top:10px;max-width:150px}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
 .site-footer .fat-footer .footer-logo{max-width:250px;margin-bottom:1em}
-.module__header .title{font-size:1.5em}
-.module__header .subtitle{font-size:1.3em}
+.module__header .title{font-size:32px}
+.module__header .subtitle{font-size:22px}
+.module .form__title{margin:0;font-size:22px}
 .module__list-image{display:block;max-width:250px;margin:20px auto}
 .module__text .btn-group>div{width:100%}
 }@media only screen and (max-width:400px){.logo-side img{max-width:100%}
+}@media only screen and (max-width:376px){.module__header .subtitle{font-size:19px}
 }@media only screen and (max-width:370px){.site-logo{padding:10px 0}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
