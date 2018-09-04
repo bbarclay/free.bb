@@ -1159,12 +1159,6 @@
                 .moonray-form-clearfix {
                     padding: 0;
 
-                    &.3-col {
-                        .moonray-form-element-wrapper {
-                            width: 33.33333%;
-                        }
-                    }
-
                     .moonray-form-element-wrapper {
                         width: 20%;
                         padding: 10px 5px;
@@ -1188,6 +1182,12 @@
                             &:hover {
                                 background-color: #f15d22;
                             }
+                        }
+                    }
+
+                    &.col-3 {
+                        .moonray-form-element-wrapper {
+                            width: 33.33333%;
                         }
                     }
                 }
