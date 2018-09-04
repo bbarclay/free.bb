@@ -708,6 +708,7 @@
             line-height: 1;
 
             text-align: center;
+            text-transform: uppercase;
 
             @include breakpoint(991) {
                 margin-top: 10px;
@@ -1133,6 +1134,8 @@
         .heading {
             margin-bottom: 15px;
 
+            font-size: 28px;
+
             text-transform: uppercase;
 
             color: #fff;
@@ -1238,14 +1241,19 @@
 
 
 .footer-form {
-    background-color: #79c142;
+    background: url(assets/img/bg.jpg) center center/cover no-repeat #002749;
 
     .heading {
         margin: 0 0 10px 0;
 
+        font-size: 28px;
         line-height: 1;
 
         text-align: center;
+
+        span {
+            text-decoration: underline;
+        }
     }
 }
 .site-footer {

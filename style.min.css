@@ -600,7 +600,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__form{padding:1em 0}
 .module__form--horizontal{border-radius:3px;background:#95ce69}
 .module .form{padding:20px 10px;border-radius:4px;background:#fff;box-shadow:0 2px 14px #021e35}
-.module .form__title{margin:0 0 10px 0;font-family:"Geogrotesque-SemiBold",sans-serif;font-size:28px;line-height:1;text-align:center}
+.module .form__title{margin:0 0 10px 0;font-family:"Geogrotesque-SemiBold",sans-serif;font-size:28px;line-height:1;text-align:center;text-transform:uppercase}
 .module .form__title span{text-decoration:underline}
 .module .form__note{padding:0 15px;margin:0;font-size:15px;line-height:1.4;text-align:center;color:#9c9c9c}
 .module .form__fields{display:block}
@@ -646,7 +646,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__text .btn-group>div .moonray-form .moonray-form-element-wrapper input[type="submit"]{width:200px !important}
 .module__text .btn-group>div .moonray-form .moonray-form-element-wrapper input[type="submit"]:hover{background-color:#002749 !important}
 .module__form{padding:1.2em 0}
-.module__form .heading{margin-bottom:15px;text-transform:uppercase;color:#fff}
+.module__form .heading{margin-bottom:15px;font-size:28px;text-transform:uppercase;color:#fff}
 .module__form .heading span{color:#002749}
 .module__form--horizontal p{margin:0}
 .module__form--horizontal .moonray-form{width:100% !important;padding:0 5px;border-radius:5px !important;background:#95ce69}
@@ -661,8 +661,9 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .form__note{padding:0 15px;font-size:14px;line-height:1.2;text-align:center;color:#414142}
 .form__fields{display:block}
 .form__fields input,.form__fields select{height:40px !important;padding:3px 5px}
-.footer-form{background-color:#79c142}
-.footer-form .heading{margin:0 0 10px 0;line-height:1;text-align:center}
+.footer-form{background:url(assets/img/bg.jpg) center center/cover no-repeat #002749}
+.footer-form .heading{margin:0 0 10px 0;font-size:28px;line-height:1;text-align:center}
+.footer-form .heading span{text-decoration:underline}
 .site-footer{min-height:100px;background-color:#002749}
 .bookshelf{padding-top:30px;background:#f7f6f6}
 .bookshelf .inner{border-radius:3px}
