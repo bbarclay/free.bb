@@ -16,8 +16,7 @@
 	 	  <?php endif; ?> 
 
 		 <div class="row">
-
-		 	<div class="col-sm-8">
+		 	<div class=" <?php echo ( get_sub_field('form') ) ? 'col-sm-8': 'col-sm-12';?>">
 
 		 	    <div class="module__hero-video">
 		 	    	<?php if( get_sub_field('video') )  { ?>
@@ -27,33 +26,36 @@
 
 		 	</div>
 
-		 	<div class="col-sm-4">
-		 	      
-		 	 	 <div class="form">
 
-		 	 	 	<?php if( get_sub_field('form_title') )  { ?>
+			<?php if( get_sub_field('form') ) : ?>
+			 	<div class="col-sm-4">
+			 	      
+			 	 	 <div class="form">
 
-		 	 	    	<h3 class="form__title"><?php echo get_sub_field('form_title') ?></h3>
+			 	 	 	<?php if( get_sub_field('form_title') )  { ?>
 
-		 	 	    <?php }
-		 	 	     if( get_sub_field('form') )  { ?>
+			 	 	    	<h3 class="form__title"><?php echo get_sub_field('form_title') ?></h3>
 
-		 	 	 	<div class="form__fields">  
-						<?php echo get_sub_field('form') ?>
-					</div>	
+			 	 	    <?php }
+			 	 	     if( get_sub_field('form') )  { ?>
 
-		 	 	    <?php }
-		 	 	     if( get_sub_field('form_note') )  { ?>
+			 	 	 		<div class="form__fields">  
+								<?php echo get_sub_field('form') ?>
+							</div>	
 
-						<p class="form__note"><?php echo get_sub_field('form_note') ?></p>
+			 	 	    <?php }
+			 	 	     if( get_sub_field('form_note') )  { ?>
 
-					<?php 
-					
-						} ?>
+							<p class="form__note"><?php echo get_sub_field('form_note') ?></p>
 
-		 	 	 </div><!-- ./form -->
+						<?php 
+						
+							} ?>
 
-		 	</div>
+			 	 	 </div><!-- ./form -->
+
+			 	</div>
+		 	<?php endif; ?>
 
 		 </div>
 
