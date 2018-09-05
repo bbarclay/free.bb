@@ -965,6 +965,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 }@media only screen and (max-width:370px){.site-logo{padding:10px 0}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
+}@media only screen and (max-width:119px){.module__header .title{font-size:37px}
 }@-webkit-keyframes fadeOut{0%{opacity:1}
 100%{opacity:0}
 }@keyframes fadeOut{0%{opacity:1}
