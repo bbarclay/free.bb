@@ -604,7 +604,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module .row .moonray-form.moonray-form-label-pos-stacked{width:100%}
 .module__form{padding:1em 0}
 .module__form--horizontal{border-radius:3px}
-.module .form{width:100%;padding:20px 10px;border-radius:4px;background:#fff;box-shadow:0 2px 14px #021e35}
+.module .form{width:100%;padding:10px;border-radius:4px;background:#fff;box-shadow:0 2px 14px #021e35}
 .module .form__title{margin:0 0 10px 0;font-family:"Geogrotesque-SemiBold",sans-serif;font-size:28px;line-height:1.2;text-align:center;text-transform:uppercase}
 .module .form__title span:first-child{text-decoration:underline}
 .module .form__note{padding:0 15px;margin:0;font-size:15px;line-height:1.4;text-align:center;color:#9c9c9c}
