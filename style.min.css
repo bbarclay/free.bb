@@ -936,7 +936,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module .form__fields{display:block;margin:0 auto}
 .module__list h2{font-size:24px}
 .module__list .listing{margin-right:0}
-.module__list-image{max-width:250px;margin:20px auto}
+.module__list-image{max-width:100%;margin:20px auto}
 .module__list .tag{right:-10px;bottom:0;left:auto}
 .module__list .tag{right:-10px;bottom:0;left:auto}
 .module__testimonial .owl-carousel{padding:0 25px}
