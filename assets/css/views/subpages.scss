@@ -295,28 +295,28 @@
             width: 24%;
             margin-top: 3em;
 
-            @include breakpoint(992) {
-                float: left;
-                width: 40%;
-            }
             @include breakpoint(600) {
                 float: none;
                 width: 100%;
 
                 text-align: center;
             }
+            @include breakpoint(992) {
+                float: left;
+                width: 40%;
+            }
         }
         .col-3 {
             float: left;
             width: 46%;
 
-            @include breakpoint(992) {
-                float: right;
-                width: 60%;
-            }
             @include breakpoint(600) {
                 float: none;
                 width: 100%;
+            }
+            @include breakpoint(992) {
+                float: right;
+                width: 60%;
             }
             p {
                 margin-bottom: 0;
@@ -559,20 +559,20 @@
 
             color: $secondary;
 
-            @include breakpoint(380) {
-                font-size: 26px;
-            }
-            @include breakpoint(1199) {
-                font-size: 37px;
-            }
-            @include breakpoint(991) {
-                font-size: 32px;
+            @include breakpoint(390) {
+                font-size: 28px;
             }
             @include breakpoint(480) {
                 font-size: 30px;
             }
-            @include breakpoint(390) {
-                font-size: 28px;
+            @include breakpoint(991) {
+                font-size: 32px;
+            }
+            @include breakpoint(1199) {
+                font-size: 37px;
+            }
+            @include breakpoint(380) {
+                font-size: 26px;
             }
         }
         .subtitle {
@@ -581,20 +581,20 @@
             font-family: $font-GeorgeLight;
             font-size: 33px;
 
-            @include breakpoint(991) {
-                font-size: 25px;
-            }
-            @include breakpoint(767) {
-                font-size: 22px;
-            }
-            @include breakpoint(500) {
-                font-size: 19px;
+            @include breakpoint(376) {
+                font-size: 16px;
             }
             @include breakpoint(480) {
                 font-size: 19px;
             }
-            @include breakpoint(376) {
-                font-size: 16px;
+            @include breakpoint(500) {
+                font-size: 19px;
+            }
+            @include breakpoint(767) {
+                font-size: 22px;
+            }
+            @include breakpoint(991) {
+                font-size: 25px;
             }
             strong {
                 font-family: $font-GeorgeMedium;
@@ -631,14 +631,14 @@
             margin: 0;
 
             font-weight: normal;
-            line-height: 1;
+            line-height: 1.2;
 
             text-transform: inherit;
 
             color: #00bce4;
 
             span {
-                @include breakpoint(650) {
+                @include breakpoint(767) {
                     display: block;
                 }
             }
@@ -656,11 +656,11 @@
 
             color: #fff;
 
-            @include breakpoint(500) {
-                font-size: 19px;
-            }
             @include breakpoint(600) {
                 font-size: 21px;
+            }
+            @include breakpoint(500) {
+                font-size: 19px;
             }
 
             span,
@@ -767,25 +767,25 @@
             text-align: center;
             text-transform: uppercase;
 
-            @include breakpoint(991) {
-                margin-top: 10px;
-
-                font-size: 25px;
-            }
-            @include breakpoint(767) {
+            @include breakpoint(375) {
                 margin: 0;
 
-                font-size: 25px;
+                font-size: 20px;
             }
             @include breakpoint(480) {
                 margin: 0;
 
                 font-size: 22px;
             }
-            @include breakpoint(375) {
+            @include breakpoint(767) {
                 margin: 0;
 
-                font-size: 20px;
+                font-size: 25px;
+            }
+            @include breakpoint(991) {
+                margin-top: 10px;
+
+                font-size: 25px;
             }
 
             span {
@@ -810,11 +810,11 @@
 
             color: #9c9c9c;
 
-            @include breakpoint(850) {
-                display: none;
-            }
             @include breakpoint(767) {
                 display: block;
+            }
+            @include breakpoint(850) {
+                display: none;
             }
         }
         &__fields {
@@ -871,11 +871,11 @@
             }
         }
         .listing {
-            @include breakpoint(991) {
-                margin-right: 14%;
-            }
             @include breakpoint(767) {
                 margin-right: 0;
+            }
+            @include breakpoint(991) {
+                margin-right: 14%;
             }
         }
         &-image {
@@ -883,17 +883,17 @@
             max-width: 100%;
             margin: 0 auto;
 
-            @include breakpoint(991) {
-                max-width: 100%;
+            @include breakpoint(480) {
+                display: block;
+                max-width: 250px;
+                margin: 20px auto;
             }
             @include breakpoint(767) {
                 max-width: 100%;
                 margin: 20px auto;
             }
-            @include breakpoint(480) {
-                display: block;
-                max-width: 250px;
-                margin: 20px auto;
+            @include breakpoint(991) {
+                max-width: 100%;
             }
         }
 
@@ -943,19 +943,19 @@
             background: $hover_color;
             box-shadow: 0 0 0 8px $success_color;
 
+            @include breakpoint(767) {
+                right: -10px;
+                bottom: 0;
+                left: auto;
+            }
+            @include breakpoint(767) {
+                right: -10px;
+                bottom: 0;
+                left: auto;
+            }
             @include breakpoint(991) {
                 bottom: -38px;
                 left: -49px;
-            }
-            @include breakpoint(767) {
-                right: -10px;
-                bottom: 0;
-                left: auto;
-            }
-            @include breakpoint(767) {
-                right: -10px;
-                bottom: 0;
-                left: auto;
             }
             span {
                 display: block;
