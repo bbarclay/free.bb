@@ -560,10 +560,14 @@
             color: $secondary;
 
             @include breakpoint(991) {
-                font-size: 35px;
+                font-size: 32px;
+
+                span {
+                    display: block;
+                }
             }
             @include breakpoint(480) {
-                font-size: 32px;
+                font-size: 30px;
             }
         }
         .subtitle {
@@ -640,6 +644,12 @@
             strong {
                 font-family: $font-GeorgeMedium;
                 font-weight: normal;
+            }
+        }
+
+        &__video {
+            @include breakpoint(767) {
+                margin-bottom: 10px;
             }
         }
     }

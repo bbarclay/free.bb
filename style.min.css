@@ -901,7 +901,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .subpage .landing-footer .col-1{float:left;width:40%}
 .subpage .landing-footer .col-3{float:right;width:60%}
 }@media only screen and (max-width:991px){#menu-footer-menu li{display:inline-block;margin:0 .2em .2em 0}
-.module__header .title{font-size:35px}
+.module__header .title{font-size:32px}
 .module__header .subtitle{font-size:25px}
 .module .form .moonray-form{width:100%;padding:0}
 .module .form__title{margin-top:10px;font-size:25px}
@@ -925,6 +925,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header .mobile-menu{display:block}
 .logo-side img{padding-top:5px;max-width:200px}
 #menu-social{margin-bottom:0}
+.module__hero__video{margin-bottom:10px}
 .module .row{display:block}
 .module .form{padding:10px}
 .module .form__title{margin:0;font-size:25px}
@@ -944,7 +945,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 }@media only screen and (max-width:500px){.logo-side img{padding-top:10px;max-width:150px}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
 .site-footer .fat-footer .footer-logo{max-width:250px;margin-bottom:1em}
-.module__header .title{font-size:32px}
+.module__header .title{font-size:30px}
 .module__header .subtitle{font-size:22px}
 .module .form__title{margin:0;font-size:22px}
 .module__list-image{display:block;max-width:250px;margin:20px auto}
