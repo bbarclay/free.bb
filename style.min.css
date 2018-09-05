@@ -904,7 +904,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .subpage .landing-footer .col-1{float:left;width:40%}
 .subpage .landing-footer .col-3{float:right;width:60%}
 }@media only screen and (max-width:991px){#menu-footer-menu li{display:inline-block;margin:0 .2em .2em 0}
-.module__header .title{font-size:31px}
+.module__header .title{font-size:30px}
 .module__header .subtitle{font-size:25px}
 .module .form .moonray-form{width:100%;padding:0}
 .module .form__title{margin-top:10px;font-size:25px}
@@ -958,6 +958,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module .form__title{margin:0;font-size:22px}
 .module__list-image{display:block;max-width:250px;margin:20px auto}
 .module__text .btn-group>div{width:100%}
+}@media only screen and (max-width:420px){.module__header .title{font-size:26px}
 }@media only screen and (max-width:400px){.logo-side img{max-width:100%}
 }@media only screen and (max-width:390px){.module__header .title{font-size:28px}
 }@media only screen and (max-width:380px){.module__header .title{font-size:26px}
