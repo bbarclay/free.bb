@@ -605,7 +605,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__form--horizontal{border-radius:3px}
 .module .form{width:100%;padding:20px 10px;border-radius:4px;background:#fff;box-shadow:0 2px 14px #021e35}
 .module .form__title{margin:0 0 10px 0;font-family:"Geogrotesque-SemiBold",sans-serif;font-size:28px;line-height:1.2;text-align:center;text-transform:uppercase}
-.module .form__title span{text-decoration:underline}
+.module .form__title span:first-child{text-decoration:underline}
 .module .form__note{padding:0 15px;margin:0;font-size:15px;line-height:1.4;text-align:center;color:#9c9c9c}
 .module .form__fields{display:block}
 .module .form__fields p{margin:0}
@@ -648,7 +648,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__text .btn-group>div a.btn-primary,.module__text .btn-group>div input[type="submit"].btn-primary{background-color:#7ac143}
 .module__text .btn-group>div a:hover,.module__text .btn-group>div input[type="submit"]:hover{text-decoration:none;background-color:#002749}
 .module__text .btn-group>div .moonray-form .moonray-form-element-wrapper{overflow:inherit}
-.module__text .btn-group>div .moonray-form .moonray-form-element-wrapper input[type="submit"]{width:200px !important}
+.module__text .btn-group>div .moonray-form .moonray-form-element-wrapper input[type="submit"]{width:200px !important;border:0 !important}
 .module__text .btn-group>div .moonray-form .moonray-form-element-wrapper input[type="submit"]:hover{background-color:#7ac143}
 .module__form{padding:1.2em 0}
 .module__form .heading{margin-bottom:15px;font-size:28px;text-transform:uppercase;color:#fff}
@@ -761,7 +761,8 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .grid__column--m-2{width:16.66666667%}
 .grid__column--m-1{width:8.33333333%}
 .container{width:100%}
-}@media only screen and (min-width:768px){.bookshelf .header .description{margin-right:20%}
+}@media only screen and (min-width:768px){.module .form__title span:nth-child(2){display:block}
+.bookshelf .header .description{margin-right:20%}
 .banner .description{margin-right:20%}
 }@media(min-width:960px){.grid__column--l-12{width:100%}
 .grid__column--l-11{width:91.66666667%}
@@ -925,6 +926,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header .mobile-menu{display:block}
 .logo-side img{padding-top:5px;max-width:200px}
 #menu-social{margin-bottom:0}
+.module__header .subtitle{font-size:22px}
 .module__hero__video{margin-bottom:10px}
 .module .row{display:block}
 .module .form{padding:10px}
@@ -940,18 +942,25 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__testimonial .owl-carousel .owl-nav .owl-prev{left:0}
 .module__testimonial .owl-carousel .owl-nav .owl-next{right:0}
 .banner h1{font-size:32px}
+}@media only screen and (max-width:650px){.module__hero h1 span{display:block}
 }@media only screen and (max-width:600px){.subpage .landing-footer .col-1{float:none;width:100%;text-align:center}
 .subpage .landing-footer .col-3{float:none;width:100%}
+.module__hero h2{font-size:21px}
 }@media only screen and (max-width:500px){.logo-side img{padding-top:10px;max-width:150px}
+.module__header .subtitle{font-size:19px}
+.module__hero h2{font-size:19px}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
 .site-footer .fat-footer .footer-logo{max-width:250px;margin-bottom:1em}
 .module__header .title{font-size:30px}
-.module__header .subtitle{font-size:22px}
+.module__header .subtitle{font-size:19px}
 .module .form__title{margin:0;font-size:22px}
 .module__list-image{display:block;max-width:250px;margin:20px auto}
 .module__text .btn-group>div{width:100%}
 }@media only screen and (max-width:400px){.logo-side img{max-width:100%}
-}@media only screen and (max-width:376px){.module__header .subtitle{font-size:19px}
+}@media only screen and (max-width:390px){.module__header .title{font-size:28px}
+}@media only screen and (max-width:380px){.module__header .title{font-size:26px}
+}@media only screen and (max-width:376px){.module__header .subtitle{font-size:16px}
+}@media only screen and (max-width:375px){.module .form__title{margin:0;font-size:20px}
 }@media only screen and (max-width:370px){.site-logo{padding:10px 0}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
