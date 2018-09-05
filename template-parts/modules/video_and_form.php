@@ -26,7 +26,6 @@
 
 		 	</div>
 
-
 			<?php if( get_sub_field('form') ) : ?>
 			 	<div class="col-sm-4">
 			 	      
