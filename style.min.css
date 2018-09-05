@@ -916,6 +916,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__testimonial .item .quote{width:100%;text-align:center}
 .module__form--horizontal .moonray-form{padding:10px}
 .module__form--horizontal .moonray-form .moonray-form-clearfix .moonray-form-element-wrapper{width:100%;padding:5px}
+.module__form--horizontal .moonray-form .moonray-form-clearfix.col-3 .moonray-form-element-wrapper{width:100%}
 .video__frame{display:block;margin:0 auto 20px auto}
 .bookshelf .books .item{width:50%}
 .banner h1{font-size:35px}
