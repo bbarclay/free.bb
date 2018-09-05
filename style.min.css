@@ -599,6 +599,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__video .inner-frame{display:block;margin:0 auto;box-shadow:0 2px 20px #797878}
 .module .row{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .module .row>div:last-child{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.module .row>.video-only{display:block !important}
 .module .row .moonray-form.moonray-form-label-pos-stacked{width:100%}
 .module__form{padding:1em 0}
 .module__form--horizontal{border-radius:3px;background:#95ce69}

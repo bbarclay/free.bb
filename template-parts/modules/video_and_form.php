@@ -16,7 +16,7 @@
 	 	  <?php endif; ?> 
 
 		 <div class="row">
-		 	<div class=" <?php echo ( get_sub_field('form') ) ? 'col-sm-8': 'col-sm-12';?>">
+		 	<div class=" <?php echo ( get_sub_field('form') ) ? 'col-sm-8': 'col-sm-12 video-only';?>">
 
 		 	    <div class="module__hero-video">
 		 	    	<?php if( get_sub_field('video') )  { ?>
