@@ -897,6 +897,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .col-lg-offset-1{margin-left:8.33333333%}
 .col-lg-offset-0{margin-left:0}
 }@media only screen and (max-width:1280px){.wp-caption .wp-caption-text,.gallery-caption{font:300 2rem/3.1rem sans-serif}
+}@media only screen and (max-width:1199px){.module__header .title{font-size:37px}
 }@media only screen and (max-width:1024px){.wp-caption .wp-caption-text,.gallery-caption{font:300 2rem/3.1rem sans-serif}
 }@media only screen and (max-width:992px){.subpage .left-content{float:none;width:100%}
 .subpage .right-content{float:none;width:100%}
@@ -965,7 +966,6 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 }@media only screen and (max-width:370px){.site-logo{padding:10px 0}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
-}@media only screen and (max-width:119px){.module__header .title{font-size:37px}
 }@-webkit-keyframes fadeOut{0%{opacity:1}
 100%{opacity:0}
 }@keyframes fadeOut{0%{opacity:1}
