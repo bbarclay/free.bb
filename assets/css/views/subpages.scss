@@ -559,8 +559,11 @@
 
             color: $secondary;
 
-            @include breakpoint(390) {
-                font-size: 28px;
+            @include breakpoint(380) {
+                font-size: 26px;
+            }
+            @include breakpoint(376) {
+                font-size: 22px;
             }
             @include breakpoint(480) {
                 font-size: 30px;
@@ -574,8 +577,8 @@
             @include breakpoint(1199) {
                 font-size: 37px;
             }
-            @include breakpoint(380) {
-                font-size: 26px;
+            @include breakpoint(350) {
+                font-size: 28px;
             }
         }
         .subtitle {

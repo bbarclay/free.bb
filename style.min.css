@@ -960,11 +960,12 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .module__text .btn-group>div{width:100%}
 }@media only screen and (max-width:420px){.module__header .title{font-size:26px}
 }@media only screen and (max-width:400px){.logo-side img{max-width:100%}
-}@media only screen and (max-width:390px){.module__header .title{font-size:28px}
 }@media only screen and (max-width:380px){.module__header .title{font-size:26px}
-}@media only screen and (max-width:376px){.module__header .subtitle{font-size:16px}
+}@media only screen and (max-width:376px){.module__header .title{font-size:22px}
+.module__header .subtitle{font-size:16px}
 }@media only screen and (max-width:375px){.module .form__title{margin:0;font-size:20px}
 }@media only screen and (max-width:370px){.site-logo{padding:10px 0}
+}@media only screen and (max-width:350px){.module__header .title{font-size:28px}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
 }@-webkit-keyframes fadeOut{0%{opacity:1}
