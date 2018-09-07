@@ -20,7 +20,7 @@
 
 		 	    <div class="module__hero__video">
 		 	    	<?php if( get_sub_field('video') )  { ?>
-		 	 			<?php echo get_sub_field('video') ?>
+		 	 			<?php the_sub_field('video') ?>
 		 	 		<?php } ?>
 		 	 	</div><!-- ./video -->
 
