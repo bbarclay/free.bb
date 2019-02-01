@@ -22,7 +22,7 @@
  		<div class="row">
  			<div class="col-xs-6 col-sm-4 col-md-3">
  				<div class="site-logo">
- 					<a href="<?php echo site_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/wp-content/uploads/2019/02/logo_v2.svg"  width="240"/></a>
+ 					<a href="<?php echo site_url() ?>"><img src="<?php echo site_url() ?>/wp-content/uploads/2019/02/logo_v2.svg"  width="240"/></a>
  				</div>
  			</div>
  			<div class="col-xs-6 col-sm-8 col-md-9">

@@ -13,7 +13,7 @@
 					<div class="<?php echo ( is_front_page() ) ? 'col-md-5' : 'col-md-8';?>">
 						<div class="pad-right">
 							<div class="footer-logo">
-								<a href="<?php echo get_bloginfo('url') ?>"><img src="<?php echo get_template_directory_uri() ?>/wp-content/uploads/2019/02/site-logo-white.png" /></a>
+								<a href="<?php echo get_bloginfo('url') ?>"><img src="<?php echo site_url() ?>/wp-content/uploads/2019/02/site-logo-white.png" /></a>
 							</div>	
 							<?php if( get_theme_mod('themezero_footer_desc') ) : ?>
 							<div class="description">
