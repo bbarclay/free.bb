@@ -24,7 +24,8 @@ Text Domain: bb-au
  * Mixins & Variables
  * ------------------------------------------------------------------------- */
 @import "partials/mixins";
-@import "partials/fonts";
+/*//@import "partials/fonts";*/
+
 @import "partials/variables";
 
 
@@ -45,4 +46,3 @@ Text Domain: bb-au
 @import "views/frontpage";
 
 @import "components/components";
-

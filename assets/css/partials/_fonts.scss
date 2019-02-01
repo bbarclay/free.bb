@@ -4,8 +4,6 @@
 
 //Georgrotesque
 
-//@include fontface('Geogrotesque-SemiBold', 'assets/fonts/dale-fonts', '2705D8_9_0');
-
 /*@include fontface("Geogrotesque-Regular", "assets/fonts/dinpro", "dinpro-regular");
 @include fontface("Geogrotesque", "assets/fonts/dinpro", "dinpro-regular");
 @include fontface("Geogrotesque-Bold", "assets/fonts/dinpro", "dinpro-black");
@@ -72,18 +70,8 @@
     src: url("assets/fonts/Bariol/Bariol_Light_Italic.otf");
 }
 
-@font-face {
-    font-family: "pt-sans";
 
-    src: url("assets/fonts/PT-sans/PTSans-Regular.otf#iefix") format("embedded-opentype"),
-    url("assets/fonts/PT-sans/PTSans-Regular.woff") format("woff"),
-    url("assets/fonts/PT-sans/PTSans-Regular.ttf")  format("truetype"),
-    url("assets/fonts/BPT-sans/PTSans-Regular.svg#svgbariollight-italic") format("svg");
-    src: url("assets/fonts/PT-sans/PTSans-Regular.otf");
-}
-
-
-@font-face {
+/*@font-face {
     font-family: "avenir";
 
     src: url("assets/fonts/Avenir/Avenir-Medium.ttf");
@@ -103,3 +91,4 @@
 
     src: url("assets/fonts/Avenir/Avenir-Light.ttf");
 }
+*/
